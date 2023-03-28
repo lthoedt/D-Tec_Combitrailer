@@ -8,6 +8,6 @@ accessory_paint_job_data : color.dtec.container.paint_job
 	icon: ""
 	base_color: (0.1882, 0.5608, 0.7882) // This is the default color.
 	base_color_locked: false
-	stock: true
+	stock: false
 }
 }
