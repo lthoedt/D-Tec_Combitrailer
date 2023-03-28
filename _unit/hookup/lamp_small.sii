@@ -1,8 +1,0 @@
-SiiNunit
-{
-flare_lamp : flare.lamp.small
-{
-	dir_type: all
-	model: "/model/flare/lamp_flare_small.pmd"
-}
-}

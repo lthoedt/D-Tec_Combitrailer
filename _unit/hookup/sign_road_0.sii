@@ -1,9 +1,0 @@
-SiiNunit
-{
-sign_overlay : sign.road_0
-{
-	model_type: road
-	board_index: 0
-}
-
-}
