@@ -1,6 +1,6 @@
 SiiNunit
 {
-trailer_configuration : .dtec_singledo
+trailer_configuration : .single_dolly
 {
 	name: "@@dtecsingle dolly@@"
 	chain_type: single
