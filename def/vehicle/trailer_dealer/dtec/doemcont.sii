@@ -27,11 +27,11 @@ vehicle_accessory: .data
 }
 vehicle_accessory: .chassis
 {
-	data_path: "/def/vehicle/trailer_owned/dtec.container/chassis/chassisdoem.sii"
+	data_path: "/def/vehicle/trailer_owned/dtec.container/chassis/paintdolly.sii"
 }
 vehicle_accessory: .body
 {
-	data_path: "/def/vehicle/trailer_owned/dtec.container/body/bodydoem.sii"
+	data_path: "/def/vehicle/trailer_owned/dtec.container/body/bodydoemp.sii"
 }
 vehicle_wheel_accessory: .tire
 {

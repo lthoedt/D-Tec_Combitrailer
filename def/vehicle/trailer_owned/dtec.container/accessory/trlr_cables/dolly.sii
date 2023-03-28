@@ -4,7 +4,6 @@ accessory_addon_trailer_cables_data : dolly.dtec.container.trlr_cables
 {
 	exterior_model: "/vehicle/trailer_owned/upgrade/trlr_cables/giga_semi_cable.pmd"
 
-    suitable_for[]	: 	"chassisdoem.dtec.container.chassis"
     suitable_for[]	: 	"paintdolly.dtec.container.chassis"
 	
 	cables[]: .air_cable_y
