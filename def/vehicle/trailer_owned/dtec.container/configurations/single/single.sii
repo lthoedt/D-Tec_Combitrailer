@@ -2,7 +2,7 @@ SiiNunit
 {
 trailer_body_set : .single
 {
-	name: "@@dtec body paint@@"
+	name: "@@D-TEC combitrailer@@"
 	icon: "chassis/scs_gooseneck/ch3_40"
 	trailer_definition: trailer_def.dtec.container
 	body[]: "/def/vehicle/trailer_owned/dtec.container/body/body_single.sii"

@@ -2,7 +2,7 @@ SiiNunit
 {
 trailer_configuration : .single_dolly
 {
-	name: "@@dtecsingle dolly@@"
+	name: "@@D-TEC dolly@@"
 	chain_type: single
 	icon: "chassis/scs_gooseneck/ch3_40"
 	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/paintdolly.sii"

@@ -2,7 +2,7 @@ SiiNunit
 {
 trailer_configuration : .single
 {
-	name: "@@dtecsingle paint@@"
+	name: "@@D-TEC combitrailer@@"
 	chain_type: single
 	icon: "chassis/scs_gooseneck/ch3_40"
 	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis.sii"

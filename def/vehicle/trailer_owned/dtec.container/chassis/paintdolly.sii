@@ -32,7 +32,7 @@ accessory_chassis_data : paintdolly.dtec.container.chassis
 
 	ui_shadow: "/vehicle/trailer_eu/ui_shadow/shadow_ch_2_bd.pmd"
 	
-	defaults[]: "/def/vehicle/trailer_owned/dtec.container/accessory/trlr_cables/dolly.sii"
+	defaults[]: "/def/vehicle/trailer_owned/dtec.container/accessory/trlr_cables/dolly.sii" // Connects dolly cables to combitrailer.
 	
 	
 
