@@ -1,0 +1,12 @@
+SiiNunit
+{
+trailer_body_set : .paint
+{
+	name: "@@dtec combi paint@@"
+	icon: "chassis/scs_gooseneck/ch3_40"
+	trailer_definition: trailer_def.paint
+	
+	body[]: "/def/vehicle/trailer_owned/dtec.container/body/bodydoemp.sii"
+	body[]: "/def/vehicle/trailer_owned/dtec.container/body/bodyp.sii"
+}
+}

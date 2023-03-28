@@ -1,0 +1,10 @@
+SiiNunit
+{
+trailer_configuration : .dtec_single
+{
+	name: "@@dtecsingle@@"
+	chain_type: single // Changes where this option is.
+	icon: "chassis/scs_gooseneck/ch3_40"
+	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis.sii"
+}
+}

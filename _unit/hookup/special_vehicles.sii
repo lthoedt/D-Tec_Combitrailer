@@ -1,0 +1,538 @@
+SiiNunit
+{
+
+parked_vehicle: traffic.transit_16.fox_ev.always.parked.physics # TRANSIT TV VARIANT
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.transit_16.fox_ev"
+	
+	forced_flare_hooter: true
+	forced_flare_blinker: true
+	forced_flare_low_beam: true
+
+}
+parked_vehicle: traffic.transit_16.lig_bor.always.parked.physics  # TRANSIT LIGHT BOARD VARIANT
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.transit_16.lig_bor"
+	
+	forced_flare_hooter: true
+	forced_flare_blinker: true
+	forced_flare_low_beam: true
+
+}
+parked_vehicle: traffic.transit_16.lig_bor.r.always.parked.physics  # TRANSIT LIGHT BOARD 2 VARIANT (INVERT)
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.transit_16.lig_bor.r"
+	
+	forced_flare_hooter: true
+	forced_flare_blinker: true
+	forced_flare_low_beam: true
+
+}
+parked_vehicle: traffic.transit_16.open_d.always.parked.physics  # transit open door (highway)
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	allowed_vehicle[]: "traffic.transit_16.open_d"
+
+}
+parked_vehicle: traffic.transit_16.open_d_1.always.parked.physics  # transit open door (dhl, fedex)
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	allowed_vehicle[]: "traffic.transit_16.open_d_1"
+
+}
+
+parked_vehicle: traffic.transit_16.open_d_1_w.always.parked.physics  # transit open door (dhl, fedex)
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	allowed_vehicle[]: "traffic.transit_16.open_d_1"
+	forced_flare_blinker: true
+}
+
+parked_vehicle: traffic.escort_ev.always.parked.physics # escort car (transporter t6)
+{
+	low_poly_only: false
+	always_visible: true
+	driver: true
+	
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transport_t6.escort_1.back"
+
+}
+parked_vehicle: traffic.escort_ev.door.always.parked.physics # escort - open front door
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transport_t6.door"
+
+}
+parked_vehicle: traffic.escort_ev.door_s.always.parked.physics # escort - open side door
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transport_t6.door2"
+
+}
+
+parked_vehicle: traffic.ford_smax.ev_l.always.parked.physics  # ford smax with open door (left)
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	allowed_vehicle[]: "traffic.ford_smax.ev_l"
+
+}
+parked_vehicle: traffic.ford_smax.ev_r.always.parked.physics  # ford smax with open door (right uk variant)
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	allowed_vehicle[]: "traffic.ford_smax.ev_r"
+
+}
+parked_vehicle: traffic.ford_smax.ev_all.always.parked.physics  # ford smax with open door (all front)
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	allowed_vehicle[]: "traffic.ford_smax.ev_all"
+
+}
+
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX escort car XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+parked_vehicle: traffic.escort_ev.l_b_l.always.parked.physics # escort - light board - eu left, uk - right
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transport_t6.l_board"
+
+}
+parked_vehicle: traffic.escort_ev.l_b_r.always.parked.physics # escort - light board - uk left, eu - right
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transport_t6.l_board2"
+
+}
+parked_vehicle: traffic.escort_ev.l_b2_l.always.parked.physics # escort - light board2 - eu left, uk - right
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transport_t6.l_board_2"
+
+}
+parked_vehicle: traffic.escort_ev.l_b2_r.always.parked.physics # escort - light board2 - uk left, eu - right
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transport_t6.l_board_3"
+
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX random event car (white) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+parked_vehicle: traffic.escort_ev.l_b_le.always.parked.physics #  - light board - eu left, uk - right
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transport_t6.l_board_e"
+
+}
+parked_vehicle: traffic.escort_ev.l_b_re.always.parked.physics #  - light board - uk left, eu - right
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transport_t6.l_board2_e"
+
+}
+parked_vehicle: traffic.escort_ev.l_b2_le.always.parked.physics #  - light board2 - eu left, uk - right
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transport_t6.l_board_2e"
+
+}
+parked_vehicle: traffic.escort_ev.l_b2_re.always.parked.physics #  - light board2 - uk left, eu - right
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transport_t6.l_board_3e"
+
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX transit without text XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+parked_vehicle: traffic.transit.lboard2.always.parked.physics #  - light board
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transit_16.lig_bor_2"
+
+}
+parked_vehicle: traffic.transit.lboardr2.always.parked.physics #  light board 
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	allowed_vehicle[]: "traffic.transit_16.lig_bor.r2"
+
+}
+parked_car: traffic.p3008.event.always.parked.physics  # OPEN HOOD
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.p3008.event"
+	
+	forced_flare_hooter: true
+	forced_flare_blinker: true
+	forced_flare_low_beam: true
+
+}
+
+parked_car: traffic.passat_2014.event.always.parked.physics # CRASH CAR FRONT
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.passat_2014.event"
+	
+	forced_flare_hooter: true
+	forced_flare_blinker: true
+	forced_flare_low_beam: true
+
+}
+
+parked_car: traffic.talisman.event.always.parked.physics  # CRASH CAR REAR
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.talisman.event"
+	
+	forced_flare_hooter: true
+	forced_flare_blinker: true
+	forced_flare_low_beam: true
+
+}
+parked_car: traffic.audi_a6.event.always.parked.physics # BURNED CAR
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.audi_a6.event"  
+ 
+}
+
+parked_car: traffic.a6_crashed.event.always.parked.physics  # audi a6 crashed
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	allowed_vehicle[]: "traffic.a6_crashed.event"
+
+}
+
+parked_car: fire_truck.event.always.parked.physics  # FIRE TRUCK
+{
+	low_poly_only: false
+	always_visible: true
+	
+	allowed_vehicle[]: "traffic.dagger.cz" #czech
+	allowed_vehicle[]: "traffic.dagger.de" #germany
+	allowed_vehicle[]: "traffic.dagger.dk" #denmark
+	allowed_vehicle[]: "traffic.dagger.ee" #estonia
+	allowed_vehicle[]: "traffic.dagger.fi" #finland
+	allowed_vehicle[]: "traffic.dagger.fr" #france
+	allowed_vehicle[]: "traffic.dagger.it" #italy
+	allowed_vehicle[]: "traffic.dagger.lv" #lithuania+latvia
+	allowed_vehicle[]: "traffic.dagger.no" #norway
+	allowed_vehicle[]: "traffic.dagger.ru" #russia
+	allowed_vehicle[]: "traffic.dagger.se" #sweden
+	allowed_vehicle[]: "traffic.dagger.sk" #slovakia
+	
+# if there is no valid fire truck a police car is chosen instead:
+	
+	allowed_vehicle[]: "traffic.bmw5.s" #switzerland
+	allowed_vehicle[]: "traffic.vw_touran.police_nl" #netherlands
+	allowed_vehicle[]: "traffic.audi_a6.police" #belgium
+	allowed_vehicle[]: "traffic.jaguar_xf.police" #uk
+	allowed_vehicle[]: "traffic.passat_cc.lux" #luxembourg
+	allowed_vehicle[]: "traffic.focus_2009.police" #hungary
+	allowed_vehicle[]: "traffic.k_ceed_c.police.poland" #poland
+	allowed_vehicle[]: "traffic.vw_touran.police_a" #austria
+
+
+	allowed_vehicle[]: "traffic.bgeed_p" #bulgaria
+	allowed_vehicle[]: "traffic.sand_p" #romania
+	allowed_vehicle[]: "traffic.toyco_p" #turkey
+	
+	
+# old unused cars:
+
+//	allowed_vehicle[]: "traffic.t815.fr"
+//	allowed_vehicle[]: "traffic.t815.cz"
+//	allowed_vehicle[]: "traffic.t815.it"
+//	allowed_vehicle[]: "traffic.t815.de"
+//	allowed_vehicle[]: "traffic.t815.sk"
+  
+	forced_flare_hooter: true
+
+	forced_flare_low_beam: true
+
+}
+
+parked_car: traffic.flatbed.event.always.parked.physics  # FLAT BED
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.flatbed.event"
+
+
+}
+
+parked_car: traffic.punto_crash.event.always.parked.physics  # punto crashed
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	allowed_vehicle[]: "traffic.punto_crash.event"
+
+}
+
+parked_car: traffic.volvo_crash.event.always.parked.physics  # punto crashed
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	allowed_vehicle[]: "traffic.volvo_crash.event"
+
+}
+parked_car: ambulance.event.always.parked.physics  # ambulance
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.ducato.fr" #france
+	allowed_vehicle[]: "traffic.ducato.it" #italy
+	allowed_vehicle[]: "traffic.ducato.uk" #united kingdom
+	
+	allowed_vehicle[]: "traffic.crafter.cz" #czech
+	allowed_vehicle[]: "traffic.crafter.sk" #slovakia
+	allowed_vehicle[]: "traffic.crafter.d" #germany
+	
+	allowed_vehicle[]: "traffic.crafter.ru" #russia
+	allowed_vehicle[]: "traffic.crafter.lit" #lithuania
+	allowed_vehicle[]: "traffic.crafter.fin" #finland
+	allowed_vehicle[]: "traffic.crafter.est" #estonia
+	allowed_vehicle[]: "traffic.crafter.lat" #latvia
+	
+#if there is no valid ambulance a police car is chosen instead:
+	
+	allowed_vehicle[]: "traffic.bmw5.s" #switzerland
+	allowed_vehicle[]: "traffic.vw_touran.police_nl" #netherlands
+	allowed_vehicle[]: "traffic.audi_a6.police" #belgium
+	allowed_vehicle[]: "traffic.passat_cc.lux" #luxembourg
+	allowed_vehicle[]: "traffic.focus_2009.police" #hungary
+	allowed_vehicle[]: "traffic.k_ceed_c.police.poland" #poland
+	allowed_vehicle[]: "traffic.vw_touran.police_a" #austria
+
+
+	allowed_vehicle[]: "traffic.bgeed_p" #bulgaria
+	allowed_vehicle[]: "traffic.sand_p" #romania
+	allowed_vehicle[]: "traffic.toyco_p" #turkey
+
+	allowed_vehicle[]: "traffic.volvo_xc70.police" #sweden
+	allowed_vehicle[]: "traffic.passat_2014.politi" #norway
+	allowed_vehicle[]: "traffic.passat_cc.no" #norway
+	allowed_vehicle[]: "traffic.mondeo_2009.police" #denmark
+	allowed_vehicle[]: "traffic.passat_2014.politi_d" #denmark
+	
+  
+  forced_flare_hooter: true
+
+	forced_flare_low_beam: true
+
+}
+parked_car: traffic.econic.always.parked.physics  # garbage truck
+{
+	low_poly_only: false
+	always_visible: true
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	driver: true
+	allowed_vehicle[]: "traffic.econic"
+
+}
+parked_car: traffic.trl_a1_ll.always.parked.physics  # trailer a1 l  LEFT
+{
+	low_poly_only: false
+	always_visible: true
+	forced_flare_hooter: true
+	allowed_vehicle[]: "traffic.a1_l_l.event"
+
+}
+parked_car: traffic.trl_a1_lr.always.parked.physics  # trailer a1 l  RIGHT
+{
+	low_poly_only: false
+	always_visible: true
+	forced_flare_hooter: true
+	allowed_vehicle[]: "traffic.a1_l_r.event"
+
+}
+parked_car: traffic.trl_a1_ls.always.parked.physics  # trailer a1 l  STOP
+{
+	low_poly_only: false
+	always_visible: true
+	forced_flare_hooter: true
+	allowed_vehicle[]: "traffic.a1_l_s.event"
+
+}
+parked_car: traffic.sem_dumper.always.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+	allowed_vehicle[]: "traffic.sem_dumper"
+
+}
+parked_car: traffic.sem_mixer.always.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+	allowed_vehicle[]: "traffic.sem_mixer"
+
+}
+parked_car: traffic.sem_crane.always.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+	allowed_vehicle[]: "traffic.sem_crane"
+
+}
+
+lod_model_hookup : lod_model.overweight.trailer
+{
+	model[]: "/model2/event/overweight.pmd"
+	model[]: "/model2/event/overweight_lod1.pmd"
+	model[]: "/model2/event/overweight_lod2.pmd"
+	
+	lod_dist[]: 50
+	lod_dist[]: 100
+}
+
+lod_model_hookup : lod_model.overweight.wheel
+{
+	model[]: "/vehicle/wheel/overweight/245_70_r17_5.pmd"
+	model[]: ""
+
+
+	lod_dist[]: 50
+}
+
+parked_vehicle: construction.parked.always.physics
+{
+
+	low_poly_only: false
+	always_visible: true
+    
+	allowed_vehicle[]: "traffic.fox_tipper"
+
+}
+
+parked_vehicle: fox_tt_event.parked.always.physics
+{
+
+	low_poly_only: false
+	always_visible: true
+	
+	forced_flare_hooter: true
+	forced_flare_blinker: true
+	forced_flare_low_beam: true
+    
+	allowed_vehicle[]: "traffic.fox_tt_event"
+
+}
+
+lod_model_hookup : lod_model.wheel_loader
+{
+	coll: "/vehicle/share/models/wheel_loader/wheel_loader_lod1.pmc"
+	model[]: "/vehicle/share/models/wheel_loader/wheel_loader_lod1.pmd"
+	model[]: "/vehicle/share/models/wheel_loader/wheel_loader_lod2.pmd"
+	model[]: "/vehicle/share/models/wheel_loader/wheel_loader_lod3.pmd"
+	
+	lod_dist[]: 50
+	lod_dist[]: 100
+}
+
+lod_model_hookup : lod_model.digger500
+{
+	coll: "/vehicle/share/models/wheel_loader/wheel_loader_lod1.pmc"
+	model[]: "/vehicle/share/models/wheel_loader/wheel_loader_lod1.pmd"
+	model[]: "/vehicle/share/models/wheel_loader/wheel_loader_lod2.pmd"
+	model[]: "/vehicle/share/models/wheel_loader/wheel_loader_lod3.pmd"
+	
+	lod_dist[]: 50
+	lod_dist[]: 100
+}
+parked_car: traffic.transit_16.crashed.always.parked.physics  # CRASH CAR REAR
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.transit_16.crashed"
+	
+
+}
+
+
+}

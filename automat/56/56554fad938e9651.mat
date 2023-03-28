@@ -1,0 +1,8 @@
+material : "eut2.dif.spec.shadow.rfx" {
+	texture[0] : "/vehicle/trailer_eu/20tft/textures/gray.tobj"
+	texture_name[0] : "texture_base"
+	aux[1] : { 0 , 0 }
+	diffuse : { 0.501961 , 0.501961 , 0.501961 }
+	shininess : 50
+	specular : { 0.749019 , 0.749019 , 0.749019 }
+}

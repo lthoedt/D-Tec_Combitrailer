@@ -1,0 +1,13 @@
+SiiNunit
+{
+trailer_configuration : .paint
+{
+	name: "@@dteccombi Paint@@"
+	chain_type: b_double
+	icon: "chassis/scs_gooseneck/ch3_40"
+	
+	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/paintdolly.sii"
+	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis_p.sii"
+	
+}
+}

@@ -1,0 +1,8 @@
+material : "eut2.dif.spec.weight.shadow.rfx" {
+	texture[0] : "/vehicle/trailer_eu/dtec_combi5/textures/kennzeichen.tobj"
+	texture_name[0] : "texture_base"
+	aux[1] : { 0 , 0 }
+	diffuse : { 0.800001 , 0.800001 , 0.800001 }
+	shininess : 50
+	specular : { 1 , 1 , 1 }
+}

@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : 40ft_12.dtec.container.cargo
+{
+	name: "40ft COSCO"
+	price: 1000
+	unlock: 0
+	icon: "cosco"
+
+	exterior_model: "/vehicle/containers/owned_c133/40ft_1_1.pmd"
+	coll: "/vehicle/containers/owned_c133/40ft_1_1.pmc"
+	look : cosco1
+}
+}

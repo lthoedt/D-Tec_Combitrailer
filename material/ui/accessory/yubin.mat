@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "yubin.tobj"
+	texture_name : "texture"
+}

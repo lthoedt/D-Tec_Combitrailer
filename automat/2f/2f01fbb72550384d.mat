@@ -1,0 +1,16 @@
+material : "eut2.dif.spec.mult.dif.spec.add.env.shadow.rfx" {
+	texture[0] : "/vehicle/trailer_eu/dtec_combi5/chassis_plain_ao1.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/trailer_eu/dtec_combi5/chassis_plain.tobj"
+	texture_name[1] : "texture_mult"
+	texture[2] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[2] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 0.4 , 0.4 , 0.4 }
+	env_factor : { 0.0711243 , 0.0711243 , 0.0711243 }
+	fresnel : { 0.2 , 0.9 }
+	reflection : 0
+	shadow_bias : 0
+	shininess : 60
+	specular : { 0.294118 , 0.294118 , 0.294118 }
+}

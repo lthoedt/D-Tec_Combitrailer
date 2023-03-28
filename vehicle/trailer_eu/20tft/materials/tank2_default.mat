@@ -1,0 +1,18 @@
+material : "eut2.truckpaint" {
+	texture[0] : "/vehicle/trailer_eu/20tft/textures/tank2_ao.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/trailer_eu/20tft/skins/tank2_1.tobj"
+	texture_name[1] : "texture_paintjob"
+	texture[2] : "/material/environment/generic_reflection.tobj"
+	texture_name[2] : "texture_reflection"
+	diffuse : { 0.694118 , 0.694118 , 0.694118 }
+	specular : { 1 , 1 , 1 }
+	shininess : 33
+	env_factor : { 0.5 , 0.5 , 0.5 }
+	fresnel : { 0.2 , 0.9 }
+	aux[5] : {1, 0, 0, 0}
+	aux[6] : {0, 1, 0, 0}
+	aux[7] : {0, 0, 1, 0}
+	aux[8] : {1, 1, 1, 0}
+
+}

@@ -1,0 +1,9 @@
+SiiNunit
+{
+
+police_car_hookup: police_car.basic
+{
+	trigger_distance: 55.0
+	fov: 60.0
+}
+}

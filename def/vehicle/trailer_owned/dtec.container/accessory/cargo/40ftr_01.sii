@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : 40ftr_01.dtec.container.cargo
+{
+	name: "40ft reefer HAMBURG SUD"
+	price: 1000
+	unlock: 0
+	icon: "ham_s"
+
+	exterior_model: "/vehicle/containers/owned_c133/40ftr_1_1.pmd"
+	coll: "/vehicle/containers/owned_c133/40ftr_1_1.pmc"
+	look : ham1
+}
+}

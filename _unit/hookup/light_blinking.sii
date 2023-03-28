@@ -1,0 +1,153 @@
+SiiNunit
+{
+
+## GREEN
+
+flare_blink : flare.model.green.blink
+{
+	dir_type: all
+
+	blink_pattern: "X--"
+	blink_step_length: 0.5
+
+	model: "/model/flare/lamp_flare_green.pmd"
+}
+flare_blink : flare.model.green.blink0
+{
+	dir_type: all
+
+	blink_pattern: "X--"
+	blink_step_length: 0.5
+
+	model: "/model/flare/lamp_flare_green.pmd"
+}
+flare_blink : flare.model.green.blink1
+{
+	dir_type: all
+
+	blink_pattern: "-X-"
+	blink_step_length: 0.5
+
+	model: "/model/flare/lamp_flare_green.pmd"
+}
+flare_blink : flare.model.green.blink2
+{
+	dir_type: all
+
+	blink_pattern: "--X"
+	blink_step_length: 0.5
+
+	model: "/model/flare/lamp_flare_green.pmd"
+}
+flare : flare.model.green.noblink
+{
+	dir_type: all
+	model: "/model/flare/lamp_flare_green.pmd"
+}
+
+## ORANGE
+
+flare_blink : flare.model.orange.blink
+{
+	dir_type: wide
+	
+	blink_pattern: "X--"
+	blink_step_length: 0.5
+
+	model: "/model/flare/roadwork_sign_flare.pmd"
+}
+
+flare_blink_sync : flare.model.orange.blink.sync
+{
+    dir_type: wide
+	
+	blink_pattern: "X--"
+	blink_step_length: 0.5
+
+    sync_ms_delay: 100
+    
+    model: "/model/flare/roadwork_sign_flare.pmd"
+}
+
+flare_blink_sync : flare.model.orange.blink.all0
+{
+    dir_type: all
+	
+	blink_pattern: "X--"
+	blink_step_length: 0.5
+    
+    model: "/model/flare/roadwork_sign_flare.pmd"
+}
+
+flare_blink_sync : flare.model.orange.blink.all1
+{
+    dir_type: all
+	
+	blink_pattern: "-X-"
+	blink_step_length: 0.5
+    
+    model: "/model/flare/roadwork_sign_flare.pmd"
+}
+
+flare_blink_sync : flare.model.orange.blink.all2
+{
+    dir_type: all
+	
+	blink_pattern: "--X"
+	blink_step_length: 0.5
+    
+    model: "/model/flare/roadwork_sign_flare.pmd"
+}
+
+flare: flare.model.orange
+{
+    dir_type: all
+    
+    model: "/model/flare/roadwork_sign_flare.pmd"
+}
+
+## RED
+
+flare_blink : flare.model.red.blink
+{
+	dir_type: all
+
+	blink_pattern: "X--"
+	blink_step_length: 0.5
+
+	model: "/model/flare/lamp_flare_red.pmd"
+}
+flare_blink : flare.model.red.blink0
+{
+	dir_type: all
+
+	blink_pattern: "X--"
+	blink_step_length: 0.5
+
+	model: "/model/flare/lamp_flare_red.pmd"
+}
+flare_blink : flare.model.red.blink1
+{
+	dir_type: all
+
+	blink_pattern: "-X-"
+	blink_step_length: 0.5
+
+	model: "/model/flare/lamp_flare_red.pmd"
+}
+flare_blink : flare.model.red.blink2
+{
+	dir_type: all
+
+	blink_pattern: "--X"
+	blink_step_length: 0.5
+
+	model: "/model/flare/lamp_flare_red.pmd"
+}
+flare: flare.model.red.noblink
+{
+	dir_type: all
+
+	model: "/model/flare/lamp_flare_red.pmd"
+}
+}

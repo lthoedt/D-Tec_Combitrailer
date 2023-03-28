@@ -1,0 +1,12 @@
+material : "eut2.truckpaint" {
+	texture[0] : "/vehicle/trailer_eu/dtec_combi5/plain_ao40.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	diffuse : { 0.4 , 0.4 , 0.4 }
+	specular : { 0.294118 , 0.294118 , 0.294118 }
+	shininess : 60
+	env_factor : { 0.07 , 0.07 , 0.07 }
+	fresnel : { 0.2 , 0.9 }
+
+}

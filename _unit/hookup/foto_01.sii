@@ -1,0 +1,13 @@
+SiiNunit
+{
+flare_blink : flare.model.foto.blink
+{
+	dir_type: all
+	model: "/model/flare/lamp_flare.pmd"
+
+	blink_pattern: "X-------------------"
+	blink_step_length: 0.25
+
+	blink_desync: 3.0
+}
+}

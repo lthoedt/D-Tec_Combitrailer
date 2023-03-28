@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.shadow" {
+	texture[0] : "/vehicle/trailer_eu/dtec_combi5/textures/nummer.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 0.4 , 0.4 , 0.4 }
+	specular : { 0.0901961 , 0.0901961 , 0.0901961 }
+	shininess : 75
+	aux[1] : { 0 , 0 }
+
+}

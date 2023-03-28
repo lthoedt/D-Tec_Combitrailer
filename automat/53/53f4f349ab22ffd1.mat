@@ -1,0 +1,8 @@
+material : "eut2.dif.spec.rfx" {
+	texture[0] : "/vehicle/trailer_eu/dtec_combi5/reflex.tobj"
+	texture_name[0] : "texture_base"
+	aux[1] : { 0 , 0 }
+	diffuse : { 0.600001 , 0.600001 , 0.600001 }
+	shininess : 30
+	specular : { 1 , 1 , 1 }
+}

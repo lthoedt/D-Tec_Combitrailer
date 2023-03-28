@@ -1,0 +1,2 @@
+/def # contains where what is in the game menu. And configures the models
+/vehicle # Contains the actual 3d models. And materials

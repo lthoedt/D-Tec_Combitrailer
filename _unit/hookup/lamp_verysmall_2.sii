@@ -1,0 +1,14 @@
+SiiNunit
+{
+flare_lamp : flare.lamp.verysmall.2
+{
+	dir_type: all
+	model: "/model/flare/lamp_flare_verysmall_2.pmd"
+}
+flare: flare.lamp.verysmall.2.always
+{
+	dir_type: all
+	model: "/model/flare/lamp_flare_verysmall_2.pmd"
+	scale_factor: 2
+}
+}

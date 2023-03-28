@@ -1,0 +1,22 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.brakellow
+{
+	dir_type: wide
+	light_type: brake
+
+	diffuse_color: (0.20, 0.0, 0.0)
+	range: 3.0
+	inner_angle: 80.0
+	outer_angle: 100.0
+	type: spot
+	forward_distance: false
+	visual_offset: 0.075
+	
+	model: "/model/flare/uniform_red_low.pmd" 
+	default_scale: 0.7
+	scale_factor: 7
+	scaling_start_distance: 0
+	scaling_end_distance: 60
+}
+}

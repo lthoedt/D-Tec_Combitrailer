@@ -1,0 +1,6 @@
+material : "eut2.distort.over"
+{
+	texture[0] : "blobs_rain.tobj"
+	texture_name[0] : "texture_base"
+	aux[0] : { 1.0, 1.0 }
+}

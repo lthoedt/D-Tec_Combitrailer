@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "runtec.tobj"
+	texture_name : "texture"
+}

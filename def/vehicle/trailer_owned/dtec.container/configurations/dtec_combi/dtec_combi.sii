@@ -1,0 +1,12 @@
+SiiNunit
+{
+trailer_body_set : .dtec_combi
+{
+	name: "@@dtec combi@@"
+	icon: "chassis/scs_gooseneck/ch3_40"
+	trailer_definition: trailer_def.dtec.combi.container
+	
+	body[]: "/def/vehicle/trailer_owned/dtec.container/body/bodydoem.sii"
+	body[]: "/def/vehicle/trailer_owned/dtec.container/body/body.sii"
+}
+}

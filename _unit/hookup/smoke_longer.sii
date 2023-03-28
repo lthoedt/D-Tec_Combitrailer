@@ -1,0 +1,46 @@
+SiiNunit
+{
+model_particle : model.particle.smokelong {
+ active_distance: &4b189680
+ gen_array: 1
+ gen_array[0]: _nameless.3d2.1240
+ auto_disable_delay: 0
+}
+
+particle_gen : _nameless.3d2.1240 {
+ list_order_up: false
+ blend_alpha: true
+ gen_pos: (0, 0, 0)
+ scale_acc: &3d4ccccd
+ rotation_speed: 10
+ alpha_blend_coef: &3e4ccccd
+ base_alpha: &3eb33333
+ alpha_attack_time: 3
+ flow_speed: (&3d4ccccd, &3f000000, &3c23d70a)
+ flow_speed_acc: (&3c23d70a, 0, &3dcccccd)
+ particle_size: (&3dcccccd, &3dcccccd)
+ particle_size_var: (&3d4ccccc, &3d4ccccc)
+ particle_displacement: (1, 0, 1)
+ color_multiplier: nil
+ key_pos: 5
+ key_pos[0]: 0
+ key_pos[1]: 48
+ key_pos[2]: 103
+ key_pos[3]: 181
+ key_pos[4]: 255
+ key_color: 5
+ key_color[0]: 4282466625
+ key_color[1]: 4281150765
+ key_color[2]: 4281348144
+ key_color[3]: 4281677109
+ key_color[4]: 4282795590
+ time_to_live: 20
+ time_to_live_rand: &3e4ccccc
+ particles_max_count: 40
+ model_path: "/model/particle/smoke.pmd"
+ model_look: pipe
+ relative_space: false
+ use_sprites: true
+}
+
+}

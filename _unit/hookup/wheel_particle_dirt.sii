@@ -1,0 +1,45 @@
+SiiNunit
+{
+vehicle_particle : wheel.particle.dirt {
+ gen_array: 1
+ gen_array[0]: _nameless.1ee.0b70
+ auto_disable_delay: 0
+}
+
+particle_gen : _nameless.1ee.0b70 {
+ list_order_up: false
+ blend_alpha: true
+ gen_pos: (&bca3d70a, 0, &bca3d70a)
+ scale_acc: &3e19999a
+ rotation_speed: 80
+ alpha_blend_coef: &3e4ccccd
+ base_alpha: &3e19999a
+ alpha_attack_time: &3f19999a
+ flow_speed: (0, &3ea3d70a, &bfa66666)
+ flow_speed_acc: (0, &c000a3d7, -1)
+ particle_size: (&3f0ccccd, &3f0ccccd)
+ particle_size_var: (&3dcccccc, &3da3d70a)
+ particle_displacement: (&3d23d70a, 0, &bca3d70a)
+ color_multiplier: nil
+ key_pos: 5
+ key_pos[0]: 0
+ key_pos[1]: 45
+ key_pos[2]: 93
+ key_pos[3]: 161
+ key_pos[4]: 255
+ key_color: 5
+ key_color[0]: 4282870147
+ key_color[1]: 4739155
+ key_color[2]: 3290424
+ key_color[3]: 5461335
+ key_color[4]: 5988968
+ time_to_live: 5
+ time_to_live_rand: &3e4ccccd
+ particles_max_count: 70
+ model_path: "/model/particle/smoke.pmd"
+ model_look: dirt
+ relative_space: false
+ use_sprites: true
+}
+
+}

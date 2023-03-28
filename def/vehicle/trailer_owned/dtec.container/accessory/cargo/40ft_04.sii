@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : 40ft_04.dtec.container.cargo
+{
+	name: "40ft K LINE"
+	price: 1000
+	unlock: 0
+	icon: "k_line"
+
+	exterior_model: "/vehicle/containers/owned_c133/40ft_1_1.pmd"
+	coll: "/vehicle/containers/owned_c133/40ft_1_1.pmc"
+	look : kline1
+}
+}

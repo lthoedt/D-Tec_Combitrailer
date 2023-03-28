@@ -1,0 +1,10 @@
+material : "eut2.dif.spec.add.env.nofresnel.paint.rfx" {
+	texture[0] : "/vehicle/trailer_owned/upgrade/wheel/abass_textures/nuts_indicator_lock.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/fuzzy_reflection/fuzzy_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 0.242721 , 0.242721 , 0.242721 }
+	shininess : 40
+	specular : { 0.580393 , 0.580393 , 0.580393 }
+}

@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : 20ft_12.dtec.container.cargo
+{
+	name: "20ft Hapag-Lloyd"
+	price: 1000
+	unlock: 0
+	icon: "hapag"
+
+	exterior_model: "/vehicle/containers/owned_c133/20ft_1_1.pmd"
+	coll: "/vehicle/containers/owned_c133/20ft_1_1.pmc"
+	look : hapag1
+}
+}

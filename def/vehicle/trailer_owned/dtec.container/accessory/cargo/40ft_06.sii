@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : 40ft_06.dtec.container.cargo
+{
+	name: "40ft MOL"
+	price: 1000
+	unlock: 0
+	icon: "mol"
+
+	exterior_model: "/vehicle/containers/owned_c133/40ft_1_1.pmd"
+	coll: "/vehicle/containers/owned_c133/40ft_1_1.pmc"
+	look : mol1
+}
+}

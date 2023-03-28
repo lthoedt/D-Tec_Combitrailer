@@ -1,0 +1,7 @@
+SiiNunit
+{
+cargo_def : emptydoll1 {
+ cargo: "cargo.emptydoll1"
+}
+
+}

@@ -1,0 +1,8 @@
+SiiNunit
+{
+flare_lamp : flare.model.green
+{
+	dir_type: all
+	model: "/model/flare/lamp_flare_green.pmd"
+}
+}

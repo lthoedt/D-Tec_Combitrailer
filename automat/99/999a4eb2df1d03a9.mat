@@ -1,0 +1,10 @@
+material : "eut2.dif.spec.add.env.nofresnel.paint.rfx" {
+	texture[0] : "/vehicle/trailer_owned/upgrade/wheel/abass_textures/ring_paint.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 0.43678 , 0.43678 , 0.43678 }
+	shininess : 120
+	specular : { 0.321569 , 0.321569 , 0.321569 }
+}

@@ -1,0 +1,13 @@
+SiiNunit
+{
+trailer_configuration : .dtec.combicont
+{
+	name: "@@dteccombicont@@"
+	chain_type: b_double
+	icon: "chassis/scs_gooseneck/ch3_40"
+	
+	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/ch_1_doc.sii"
+	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/ch_2_20c.sii"
+	
+}
+}

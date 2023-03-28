@@ -1,0 +1,46 @@
+SiiNunit
+{
+model_particle : model.particle.pebbles_f {
+ active_distance: &4b189680
+ gen_array: 1
+ gen_array[0]: _nameless.22d.e600
+ auto_disable_delay: 0
+}
+
+particle_gen : _nameless.22d.e600 {
+ list_order_up: false
+ blend_alpha: true
+ gen_pos: (&be800000, 0, 0)
+ scale_acc: 0
+ rotation_speed: 0
+ alpha_blend_coef: &3f666666
+ base_alpha: 1
+ alpha_attack_time: &3dcccccd
+ flow_speed: (0, -4, 0)
+ flow_speed_acc: (0, -6, 0)
+ particle_size: (&3dcccccd, &3dcccccd)
+ particle_size_var: (&3ecccccc, &3ecccccc)
+ particle_displacement: (&3ecccccd, 0, 0)
+ color_multiplier: nil
+ key_pos: 5
+ key_pos[0]: 0
+ key_pos[1]: 0
+ key_pos[2]: 139
+ key_pos[3]: 251
+ key_pos[4]: 255
+ key_color: 5
+ key_color[0]: nil
+ key_color[1]: 4286871933
+ key_color[2]: 4290822336
+ key_color[3]: 4291809231
+ key_color[4]: 4294309365
+ time_to_live: &3fc00000
+ time_to_live_rand: 0
+ particles_max_count: 30
+ model_path: "/model/particle/pebbles_f.pmd"
+ model_look: default
+ relative_space: false
+ use_sprites: true
+}
+
+}

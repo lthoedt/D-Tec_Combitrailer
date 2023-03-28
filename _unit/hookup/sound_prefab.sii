@@ -1,0 +1,489 @@
+SiiNunit
+{
+sound_hookup : sound.elec_station
+{
+	trigger_distance: 50.0
+	day_sounds[]: "10|/sound/prefab/big_aircondition_1.ogg"
+}
+
+sound_hookup : sound.factory1
+{
+	trigger_distance: 200.0
+	day_sounds[]: "10|/sound/prefab/big_factory_1.ogg"
+	night_sounds[]: "15|/sound/prefab/big_factory_1.ogg"
+}
+
+sound_hookup : sound.workshop1
+{
+	trigger_distance: 80.0
+	day_sounds[]: "10|/sound/mover/heli_middle.ogg"
+	night_sounds[]: "10|/sound/mover/train2.ogg"
+}
+
+sound_hookup : sound.big_aircon
+{
+	trigger_distance: 90.0
+	day_sounds[]: "9|/sound/prefab/big_aircondition_1.ogg"
+	day_sounds[]: "9|/sound/prefab/big_aircondition_2.ogg"
+	night_sounds[]: "5|/sound/prefab/big_aircondition_1.ogg"
+	night_sounds[]: "5|/sound/prefab/big_aircondition_2.ogg"
+}
+
+
+sound_hookup : sound.big_factr
+{
+	trigger_distance: 17.0
+	day_sounds[]: "10|/sound/prefab/big_factory_1.ogg"
+	day_sounds[]: "10|/sound/prefab/big_factory_2.ogg"
+	day_sounds[]: "10|/sound/prefab/big_factory_3.ogg"
+	night_sounds[]: "5|/sound/prefab/big_factory_1.ogg"
+	night_sounds[]: "5|/sound/prefab/big_factory_2.ogg"
+	night_sounds[]: "5|/sound/prefab/big_factory_3.ogg"
+}
+
+sound_hookup : sound.car_service
+{
+	trigger_distance: 100.0
+	day_sounds[]: "10|/sound/prefab/car_service_2.ogg"
+	day_sounds[]: "10|/sound/prefab/car_service_hydraulic_1.ogg"
+	day_sounds[]: "10|/sound/prefab/car_service_medium_1.ogg"
+	day_sounds[]: "10|/sound/prefab/car_service_noise_1.ogg"
+	night_sounds[]: "5|/sound/prefab/car_service_2.ogg"
+	night_sounds[]: "5|/sound/prefab/car_service_hydraulic_1.ogg"
+	night_sounds[]: "5|/sound/prefab/car_service_medium_1.ogg"
+	night_sounds[]: "5|/sound/prefab/car_service_noise_1.ogg"
+}
+
+sound_hookup : sound.construction
+{
+	trigger_distance: 17.0
+	day_sounds[]: "10|/sound/prefab/construction_1.ogg"
+	day_sounds[]: "10|/sound/prefab/construction_2.ogg"
+	day_sounds[]: "10|/sound/prefab/construction_3.ogg"
+	day_sounds[]: "10|/sound/prefab/construction_4.ogg"
+	day_sounds[]: "10|/sound/prefab/construction_5.ogg"
+	day_sounds[]: "10|/sound/prefab/construction_6.ogg"
+	night_sounds[]: "5|/sound/prefab/construction_1.ogg"
+	night_sounds[]: "5|/sound/prefab/construction_2.ogg"
+	night_sounds[]: "5|/sound/prefab/construction_3.ogg"
+	night_sounds[]: "5|/sound/prefab/construction_4.ogg"
+	night_sounds[]: "5|/sound/prefab/construction_5.ogg"
+	night_sounds[]: "5|/sound/prefab/construction_6.ogg"
+}
+
+sound_hookup : sound.cons_garage
+{
+	trigger_distance: 90.0
+	day_sounds[]: "10|/sound/prefab/construction_garage_1.ogg"
+	day_sounds[]: "10|/sound/prefab/construction_garage_2.ogg"
+	night_sounds[]: "5|/sound/prefab/construction_garage_1.ogg"
+	night_sounds[]: "5|/sound/prefab/construction_garage_2.ogg"
+}
+
+sound_hookup : sound.elev_music
+{
+	trigger_distance: 70.0
+	day_sounds[]: "5|/sound/prefab/elevator_music_1.ogg"
+	night_sounds[]: "1|/sound/prefab/elevator_music_1.ogg"
+}
+
+sound_hookup : sound.factory_hum
+{
+	trigger_distance: 110.0
+	day_sounds[]: "7|/sound/prefab/factory_hum_1.ogg"
+	night_sounds[]: "5|/sound/prefab/factory_hum_1.ogg"
+}
+
+sound_hookup : sound.farm
+{
+	trigger_distance: 100.0
+	day_sounds[]: "7|/sound/prefab/farm_1.ogg"
+	night_sounds[]: "10|/sound/prefab/farm_1.ogg"
+}
+
+sound_hookup : sound.farm_cows
+{
+	trigger_distance: 100.0
+	day_sounds[]: "7|/sound/prefab/farm_1_cows.ogg"
+	night_sounds[]: "10|/sound/prefab/farm_1_cows.ogg"
+}
+
+sound_hookup : sound.farm_chicken
+{
+	trigger_distance: 80.0
+	day_sounds[]: "7|/sound/prefab/farm_2_chicken.ogg"
+	night_sounds[]: "7|/sound/prefab/farm_2_chicken.ogg"
+}
+
+sound_hookup : sound.farm_mix
+{
+	trigger_distance: 100.0
+	day_sounds[]: "7|/sound/prefab/farm_3_mix.ogg"
+	night_sounds[]: "15|/sound/prefab/farm_3_mix.ogg"
+
+}
+
+sound_hookup : sound.ferry
+{
+	trigger_distance: 120.0
+	day_sounds[]: "9|/sound/prefab/ferry_1.ogg"
+	night_sounds[]: "15|/sound/prefab/ferry_1.ogg"
+}
+
+sound_hookup : sound.forklifts
+{
+	trigger_distance: 80.0
+	day_sounds[]: "10|/sound/prefab/forklifts_1.ogg"
+	day_sounds[]: "10|/sound/prefab/forklifts_2.ogg"
+	night_sounds[]: "5|/sound/prefab/forklifts_1.ogg"
+	night_sounds[]: "5|/sound/prefab/forklifts_2.ogg"
+}
+
+sound_hookup : sound.gas_st_small
+{
+	trigger_distance: 60.0
+	day_sounds[]: "5|/sound/prefab/gas_station_small_1.ogg"
+	night_sounds[]: "2|/sound/prefab/gas_station_small_1.ogg"
+}
+
+sound_hookup : sound.hammering
+{
+	trigger_distance: 70.0
+	day_sounds[]: "7|/sound/prefab/hammering_1.ogg"
+	night_sounds[]: "5|/sound/prefab/hammering_1.ogg"
+}
+
+sound_hookup : sound.low_nois_gen
+{
+	trigger_distance: 60.0
+	day_sounds[]: "10|/sound/prefab/low_noise_generator_1.ogg"
+	night_sounds[]: "10|/sound/prefab/low_noise_generator_1.ogg"
+}
+
+sound_hookup : sound.machine_loop
+{
+	trigger_distance: 80.0
+	day_sounds[]: "10|/sound/prefab/machine_loop_1.ogg"
+	night_sounds[]: "5|/sound/prefab/machine_loop_1.ogg"
+}
+
+sound_hookup : sound.min_stor_bsc
+{
+	trigger_distance: 100.0
+	day_sounds[]: "7|/sound/prefab/mining_storage_basic_1.ogg"
+	day_sounds[]: "7|/sound/prefab/mining_storage_basic_2.ogg"
+	night_sounds[]: "5|/sound/prefab/mining_storage_basic_1.ogg"
+	night_sounds[]: "5|/sound/prefab/mining_storage_basic_2.ogg"
+}
+
+sound_hookup : sound.print_fact
+{
+	trigger_distance: 100.0
+	day_sounds[]: "7|/sound/prefab/print_factory_1.ogg"
+	day_sounds[]: "7|/sound/prefab/print_factory_2.ogg"
+	night_sounds[]: "5|/sound/prefab/print_factory_1.ogg"
+	night_sounds[]: "5|/sound/prefab/print_factory_2.ogg"
+}
+
+sound_hookup : sound.quarrys
+{
+	trigger_distance: 90.0
+	day_sounds[]: "10|/sound/prefab/quarry_1.ogg"
+	day_sounds[]: "10|/sound/prefab/quarry_2.ogg"
+	night_sounds[]: "10|/sound/prefab/quarry_1.ogg"
+	night_sounds[]: "10|/sound/prefab/quarry_2.ogg"
+}
+
+sound_hookup : sound.sewage_water
+{
+	trigger_distance: 80.0
+	day_sounds[]: "10|/sound/prefab/sewage_water_1.ogg"
+	night_sounds[]: "5|/sound/prefab/sewage_water_1.ogg"
+}
+
+sound_hookup : sound.small_fact
+{
+	trigger_distance: 17.0
+	day_sounds[]: "7|/sound/prefab/small_factory_2.ogg"
+	day_sounds[]: "7|/sound/prefab/small_factory_3.ogg"
+	day_sounds[]: "7|/sound/prefab/small_factory_4.ogg"
+	day_sounds[]: "7|/sound/prefab/small_factory_with_welding_1.ogg"
+	night_sounds[]: "5|/sound/prefab/small_factory_2.ogg"
+	night_sounds[]: "5|/sound/prefab/small_factory_3.ogg"
+	night_sounds[]: "5|/sound/prefab/small_factory_4.ogg"
+	night_sounds[]: "5|/sound/prefab/small_factory_with_welding_1.ogg"
+	
+}
+
+sound_hookup : sound.small_ser_c
+{
+	trigger_distance: 90.0
+	day_sounds[]: "10|/sound/prefab/small_service_car_1.ogg"
+	day_sounds[]: "10|/sound/prefab/small_service_car_2.ogg"
+	night_sounds[]: "5|/sound/prefab/small_service_car_1.ogg"
+	night_sounds[]: "5|/sound/prefab/small_service_car_2.ogg"
+}
+
+sound_hookup : sound.train_stat
+{
+	trigger_distance: 70.0
+	day_sounds[]: "7|/sound/prefab/train_station_1.ogg"
+	day_sounds[]: "7|/sound/prefab/train_station_2.ogg"
+	day_sounds[]: "7|/sound/prefab/train_station_3.ogg"
+	night_sounds[]: "5|/sound/prefab/train_station_1.ogg"
+	night_sounds[]: "5|/sound/prefab/train_station_2.ogg"
+	night_sounds[]: "5|/sound/prefab/train_station_3.ogg"
+}
+
+sound_hookup : sound.transf_stat
+{
+	trigger_distance: 50.0
+	day_sounds[]: "10|/sound/prefab/transformer_station_1.ogg"
+	night_sounds[]: "5|/sound/prefab/transformer_station_1.ogg"
+}
+
+sound_hookup : sound.warehouse
+{
+	trigger_distance: 100.0
+	day_sounds[]: "10|/sound/prefab/warehouse_1.ogg"
+	day_sounds[]: "10|/sound/prefab/warehouse_2.ogg"
+	day_sounds[]: "10|/sound/prefab/warehouse_3.ogg"
+	day_sounds[]: "10|/sound/prefab/warehouse_4.ogg"
+	night_sounds[]: "5|/sound/prefab/warehouse_1.ogg"
+	night_sounds[]: "5|/sound/prefab/warehouse_2.ogg"
+	night_sounds[]: "5|/sound/prefab/warehouse_3.ogg"
+	night_sounds[]: "5|/sound/prefab/warehouse_4.ogg"
+}
+
+sound_hookup : sound.welding
+{
+	trigger_distance: 60.0
+	day_sounds[]: "10|/sound/prefab/welding_1.ogg"
+	night_sounds[]: "5|/sound/prefab/welding_1.ogg"
+}
+
+
+sound_hookup : sound.plant_farm
+{
+	trigger_distance: 100.0
+	day_sounds[]: "7|/sound/prefab/balt_plant_farm_small_tractor.ogg"
+	night_sounds[]: "15|/sound/prefab/balt_plant_farm_small_tractor.ogg"
+}
+
+sound_hookup : sound.sawmill1
+{
+	trigger_distance: 150.0
+	day_sounds[]: "10|/sound/prefab/balt_sawmill_provoz_1.ogg"
+	night_sounds[]: "10|/sound/prefab/balt_sawmill_provoz_1.ogg"
+}
+
+sound_hookup : sound.sawmill2
+{
+	trigger_distance: 150.0
+	day_sounds[]: "7|/sound/prefab/balt_sawmill_odkurovaci_hala.ogg"
+	night_sounds[]: "7|/sound/prefab/balt_sawmill_odkurovaci_hala.ogg"
+}
+
+sound_hookup : sound.sawmill3
+{
+	trigger_distance: 150.0
+	day_sounds[]: "10|/sound/prefab/balt_sawmill_podavaci_pas.ogg"
+	night_sounds[]: "10|/sound/prefab/balt_sawmill_podavaci_pas.ogg"
+}
+
+sound_hookup : sound.ani_farm_pig
+{
+	trigger_distance: 150.0
+	day_sounds[]: "10|/sound/prefab/balt_animal_farm_pig.ogg"
+	night_sounds[]: "15|/sound/prefab/balt_animal_farm_pig.ogg"
+}
+
+sound_hookup : sound.ani_farm_cow
+{
+	trigger_distance: 150.0
+	day_sounds[]: "10|/sound/prefab/balt_farm_cow.ogg"
+	night_sounds[]: "15|/sound/prefab/balt_farm_cow.ogg"
+}
+
+sound_hookup : sound.yacht_b1
+{
+	trigger_distance: 150.0
+	day_sounds[]: "7|/sound/prefab/balt_yacht_builder_bighall.ogg"
+	night_sounds[]: "3|/sound/prefab/balt_yacht_builder_bighall.ogg"
+}
+
+sound_hookup : sound.yacht_b2
+{
+	trigger_distance: 150.0
+	day_sounds[]: "7|/sound/prefab/balt_yacht_builder_crane.ogg"
+	night_sounds[]: "5|/sound/prefab/balt_yacht_builder_crane.ogg"
+}
+
+sound_hookup : sound.paper_f
+{
+	trigger_distance: 150.0
+	day_sounds[]: "9|/sound/prefab/balt_paper_factory.ogg"
+	night_sounds[]: "5|/sound/prefab/balt_paper_factory.ogg"
+}
+
+sound_hookup : sound.railway_t
+{
+	trigger_distance: 90.0
+	day_sounds[]: "12|/sound/prefab/balt_railway_terminal.ogg"
+	night_sounds[]: "7|/sound/prefab/balt_railway_terminal.ogg"
+}
+
+sound_hookup : sound.oil_st1
+{
+	trigger_distance: 80.0
+	day_sounds[]: "7|/sound/prefab/balt_oil_storage_etc_hiss1.ogg"
+	night_sounds[]: "10|/sound/prefab/balt_oil_storage_etc_hiss1.ogg"
+}
+
+sound_hookup : sound.oil_st2
+{
+	trigger_distance: 70.0
+	day_sounds[]: "7|/sound/prefab/balt_oil_storage_etc_hiss2.ogg"
+	night_sounds[]: "10|/sound/prefab/balt_oil_storage_etc_hiss2.ogg"
+}
+
+sound_hookup : sound.recr_agen
+{
+	trigger_distance: 60.0
+	day_sounds[]: "7|/sound/prefab/balt_recruitment_agency.ogg"
+	night_sounds[]: "2|/sound/prefab/balt_recruitment_agency.ogg"
+}
+
+sound_hookup : sound.hotel_lo
+{
+	trigger_distance: 70.0
+	day_sounds[]: "7|/sound/prefab/balt_hotel_lobby_smal.ogg"
+	night_sounds[]: "2|/sound/prefab/balt_hotel_lobby_smal.ogg"
+}
+
+sound_hookup : sound.paper_fa1
+{
+	trigger_distance: 100.0
+	day_sounds[]: "15|/sound/prefab/balt_paper_factory.ogg"
+	night_sounds[]: "5|/sound/prefab/balt_paper_factory.ogg"
+}
+
+sound_hookup : sound.conc_fa1
+{
+	trigger_distance: 90.0
+	day_sounds[]: "12|/sound/prefab/balt_concrete_fact_crane.ogg"
+	night_sounds[]: "2|/sound/prefab/balt_concrete_fact_crane.ogg"
+}
+
+sound_hookup : sound.conc_fa2
+{
+	trigger_distance: 70.0
+	day_sounds[]: "12|/sound/prefab/balt_concrete_fact_hall.ogg"
+	night_sounds[]: "5|/sound/prefab/balt_concrete_fact_hall.ogg"
+}
+
+sound_hookup : sound.conc_fa3
+{
+	trigger_distance: 17.0
+	day_sounds[]: "12|/sound/prefab/balt_concrete_fact_transport_belt.ogg"
+	night_sounds[]: "5|/sound/prefab/balt_concrete_fact_transport_belt.ogg"
+}
+
+sound_hookup : sound.loco_fa1
+{
+	trigger_distance: 100.0
+	day_sounds[]: "10|/sound/prefab/balt_locomotive_factory_1.ogg"
+	night_sounds[]: "10|/sound/prefab/balt_locomotive_factory_1.ogg"
+}
+
+sound_hookup : sound.loco_fa2
+{
+	trigger_distance: 100.0
+	day_sounds[]: "10|/sound/prefab/balt_locomotive_factory_2.ogg"
+	night_sounds[]: "5|/sound/prefab/balt_locomotive_factory_2.ogg"
+}
+
+sound_hookup : sound.bu_ma_st1
+{
+	trigger_distance: 100.0
+	day_sounds[]: "10|/sound/prefab/balt_builder_mat_store_1.ogg"
+	night_sounds[]: "5|/sound/prefab/balt_builder_mat_store_1.ogg"
+}
+
+sound_hookup : sound.bu_ma_st2
+{
+	trigger_distance: 100.0
+	day_sounds[]: "10|/sound/prefab/balt_builder_mat_store_2.ogg"
+	night_sounds[]: "5|/sound/prefab/balt_builder_mat_store_2.ogg"
+}
+
+#--------------------BALKAN---------------------------------------------#
+
+sound_hookup : sound.bk_bus_st
+{
+	trigger_distance: 80.0
+	day_sounds[]: "10|/sound/prefab/bk_bus_st2.ogg"
+	night_sounds[]: "5|/sound/prefab/bk_bus_st1.ogg"
+}
+sound_hookup : sound.bk_quarry 
+{
+	trigger_distance: 80.0
+	day_sounds[]: "10|/sound/prefab/bk_quarry1.ogg"
+	night_sounds[]: "5|/sound/prefab/bk_quarry1.ogg"
+}
+sound_hookup : sound.bk_beverage
+{
+	trigger_distance: 80.0
+	day_sounds[]: "10|/sound/prefab/bk_beverage.ogg"
+	night_sounds[]: "5|/sound/prefab/bk_beverage.ogg"
+}
+sound_hookup : sound.bk_forklift
+{
+	trigger_distance: 60.0
+	day_sounds[]: "10|/sound/prefab/bk_forklift1.ogg"
+	night_sounds[]: "5|/sound/prefab/bk_forklift1.ogg"
+}
+sound_hookup : sound.bk_glass_fa
+{
+	trigger_distance: 70.0
+	day_sounds[]: "10|/sound/prefab/bk_glassfac1.ogg"
+	night_sounds[]: "5|/sound/prefab/bk_glassfac1.ogg"
+}
+sound_hookup : sound.bk_logistic
+{
+	trigger_distance: 80.0
+	day_sounds[]: "10|/sound/prefab/bk_logistic2.ogg"
+	night_sounds[]: "5|/sound/prefab/bk_logistic2.ogg"
+}
+sound_hookup : sound.bk_quarry_b1
+{
+	trigger_distance: 100.0
+	day_sounds[]: "15|/sound/prefab/bk_quarry2.ogg"
+	night_sounds[]: "5|/sound/prefab/bk_quarry2.ogg"
+}
+sound_hookup : sound.bk_quarry_b2
+{
+	trigger_distance: 100.0
+	day_sounds[]: "15|/sound/prefab/bk_quary_b1.ogg"
+	night_sounds[]: "5|/sound/prefab/bk_quary_b1.ogg"
+}
+sound_hookup : sound.bk_shipyard
+{
+	trigger_distance: 100.0
+	day_sounds[]: "10|/sound/prefab/bk_shipyard.ogg"
+	night_sounds[]: "5|/sound/prefab/bk_shipyard.ogg"
+}
+sound_hookup : sound.bk_steelwork
+{
+	trigger_distance: 140.0
+	day_sounds[]: "10|/sound/prefab/bk_steelwork.ogg"
+	night_sounds[]: "5|/sound/prefab/bk_steelwork.ogg"
+}
+sound_hookup : sound.bk_contain
+{
+	trigger_distance: 140.0
+	day_sounds[]: "6|/sound/prefab/bk_logistic.ogg"
+	night_sounds[]: "3|/sound/prefab/bk_logistic2.ogg"
+}
+
+}

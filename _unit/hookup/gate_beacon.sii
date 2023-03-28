@@ -1,0 +1,30 @@
+SiiNunit
+{
+
+##########################
+#
+#  gate beacons
+#
+##########################
+
+
+beacon_vehicle: flare.gate.basic.beacon_o
+{
+	rot_speed: 720
+	dir_type: wide
+	light_type: beacon
+	
+	diffuse_color: (1.0, 0.40, 0.1)
+	range: 15.0
+	inner_angle: 10.0
+	outer_angle: 70.0
+	pitch_offset: -25
+	type: spot
+	forward_distance: false
+
+	model: "/model/flare/uniform_orange.pmd"
+	default_scale: 1.2
+	scale_factor: 3
+}
+
+}

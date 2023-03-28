@@ -1,0 +1,142 @@
+SiiNunit
+{
+passenger_hookup : lod.hookup.pass0
+{
+	model[]: "/vehicle/driver/ai_pass_0.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass1
+{
+	model[]: "/vehicle/driver/ai_pass_1.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass2
+{
+	model[]: "/vehicle/driver/ai_pass_2.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass3
+{
+	model[]: "/vehicle/driver/ai_pass_3.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass4
+{
+	model[]: "/vehicle/driver/ai_pass_4.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass5
+{
+	model[]: "/vehicle/driver/ai_pass_5.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass6
+{
+	model[]: "/vehicle/driver/ai_pass_6.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass7
+{
+	model[]: "/vehicle/driver/ai_pass_7.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass8
+{
+	model[]: "/vehicle/driver/ai_pass_8.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass9
+{
+	model[]: "/vehicle/driver/ai_pass_9.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass10
+{
+	model[]: "/vehicle/driver/ai_pass_10.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass11
+{
+	model[]: "/vehicle/driver/ai_pass_11.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass
+{
+	hookup_variant[]: lod.hookup.pass0
+	hookup_variant[]: lod.hookup.pass1
+	hookup_variant[]: lod.hookup.pass2
+	hookup_variant[]: lod.hookup.pass3
+	hookup_variant[]: lod.hookup.pass4
+	hookup_variant[]: lod.hookup.pass5
+	hookup_variant[]: lod.hookup.pass6
+	hookup_variant[]: lod.hookup.pass7
+	hookup_variant[]: lod.hookup.pass8
+	hookup_variant[]: lod.hookup.pass9
+	hookup_variant[]: lod.hookup.pass10
+	hookup_variant[]: lod.hookup.pass11
+
+
+	probability_day: 0.1
+	probability_night: 0.1
+}
+
+passenger_hookup : lod.hookup.pass_p_0
+{
+	model[]: "/vehicle/driver/driver_police/ai_0_pass.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass_p_1
+{
+	model[]: "/vehicle/driver/driver_police/ai_1_pass.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass_p_2
+{
+	model[]: "/vehicle/driver/driver_police/ai_2_pass.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.pass_p_3
+{
+	model[]: "/vehicle/driver/driver_police/ai_3_pass.pmd"
+	model[]: ""
+
+	lod_dist[]: 60
+}
+passenger_hookup : lod.hookup.police_pass
+{
+	hookup_variant[]: lod.hookup.pass_p_0
+	hookup_variant[]: lod.hookup.pass_p_1
+	hookup_variant[]: lod.hookup.pass_p_2
+	hookup_variant[]: lod.hookup.pass_p_3
+}
+}

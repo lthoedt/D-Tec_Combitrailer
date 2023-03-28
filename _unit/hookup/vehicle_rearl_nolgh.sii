@@ -1,0 +1,14 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.rearl_nolgh
+{
+	dir_type: wide
+	light_type: parking
+
+	range: 0.0  # disable light source
+
+	model: "/model/flare/uniform_red_dimmed.pmd"
+	default_scale: 0.534
+	scale_factor: 5
+}
+}

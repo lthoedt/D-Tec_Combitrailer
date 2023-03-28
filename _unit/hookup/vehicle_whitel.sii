@@ -1,0 +1,12 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.whitel
+{
+	dir_type: wide
+	light_type: parking
+	model: "/model/flare/uniform_cold_white.pmd"
+	default_scale: 0.229
+	scale_factor: 2
+	visual_offset: 0.075
+}
+}

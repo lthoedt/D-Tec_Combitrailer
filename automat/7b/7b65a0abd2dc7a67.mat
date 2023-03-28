@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.tsnmap.rfx" {
+	texture[0] : "/vehicle/trailer_owned/upgrade/wheel/tire/gy_kmax_t_385_65.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/trailer_owned/upgrade/wheel/tire/gy_kmax_t_385_65_nm.tobj"
+	texture_name[1] : "texture_nmap"
+	diffuse : { 0.435294 , 0.435294 , 0.435294 }
+	shininess : 80
+	specular : { 0.168627 , 0.168627 , 0.168627 }
+}

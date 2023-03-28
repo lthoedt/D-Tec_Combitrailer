@@ -1,0 +1,27 @@
+D-TEC Combitrailer by Peerke145 with updated by xtrucker36
+
+V1.2
+-fixed trailer cables between dolly and trailer
+-added paintable chassis option
+
+CREDITS
+
+Base Model: 		Flexitrailer by Igor
+Containers: 		EED123, Tony1971, Holly, Samson and SheryO
+TankContainer:          Marc D.
+Skins & Textures: 	Nordisch, Pauli and Arnook
+Wheels: 		Ventyres and Bora
+Updated Cargos: 	John Dalton
+DLC Scandinavia ready:  John Dalton
+DLC France/Going East:	SMG
+
+The GigaLiner Repot the country on 1.31.
+denmark
+, norway,
+ sweden,
+ france,
+ germany,
+ netherland 
+
+
+

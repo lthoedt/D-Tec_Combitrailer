@@ -1,0 +1,25 @@
+SiiNunit
+{
+# ".package_name" does not matter as the dot at the beginning of the file means that this unit is anonymous. 
+# Please keep this form to not make any conflicts with other mod packages (name collisions).
+mod_package : .package_name {
+
+    # Package version can be any string with any length.
+    package_version: "1.2"
+
+    # Display name can be any string with any length.
+    display_name: "D-Tec Combitrailer"
+
+    # Author can be any string with any length.
+    author: "Peerke145,(converted by kartal2339) SMG, (Fixed by Dutchta) Igor, EED123, Tony1971, Holly, Samson, SheryO, Nordisch, Pauli, Arnook, Ventyres and Bora, Marc D."
+
+    # Categories is an array of strings.
+    category[]: "trailer"
+
+    # Icon inside the root directory of the mod.
+    icon: "trailer.jpg"
+
+    # Description file inside the root directory of the mod.
+    description_file: "mod_description.txt"
+}
+}

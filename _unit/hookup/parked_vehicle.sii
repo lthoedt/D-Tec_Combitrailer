@@ -1,0 +1,579 @@
+SiiNunit
+{
+
+parked_vehicle: car.parked
+{
+	low_poly_only: true
+	allowed_vehicle_type[]: "car"
+    always_visible: true
+}
+
+parked_vehicle: car.parked.physics
+{
+	low_poly_only: false
+	allowed_vehicle_type[]: "car"
+    always_visible: true
+}
+
+parked_vehicle: car.parked.physics.0.25
+{
+	low_poly_only: false
+	probability_day: 0.25
+	probability_night: 0.25
+
+	allowed_vehicle_type[]: "car"
+}
+
+parked_vehicle: car.passenger.parked
+{
+	allowed_vehicle_type[]: "car"
+	low_poly_only: true
+	
+
+}
+
+parked_vehicle: car.passenger.parked.physics
+{
+	allowed_vehicle_type[]: "car"
+	low_poly_only: false
+	
+}
+
+parked_vehicle: car.passenger.parked.physics.0.25
+{
+	allowed_vehicle_type[]: "car"
+	low_poly_only: false
+	probability_day: 0.25
+	probability_night: 0.25
+
+	
+}
+
+parked_vehicle: car.psngr_driver.parked.physics
+{
+	allowed_vehicle_type[]: "car"
+	low_poly_only: false
+	driver: true
+	#exclude_vehicle[]: "traffic.ford_transit"
+	
+}
+
+parked_vehicle: van.parked.physics
+{
+	low_poly_only: false
+	allowed_vehicle[]: "traffic.ford_transit"
+	allowed_vehicle[]: "traffic.peugeotbo"
+	allowed_vehicle[]: "traffic.ducato"
+	allowed_vehicle[]: "traffic.ducato.plat"
+	allowed_vehicle[]: "traffic.ducato.box"
+	allowed_vehicle[]: "traffic.daily"
+	allowed_vehicle[]: "traffic.daily.box"
+	allowed_vehicle[]: "traffic.daily.curtain"
+	allowed_vehicle[]: "traffic.transit_16.fr"
+	allowed_vehicle[]: "traffic.transit_16.glass"
+	allowed_vehicle[]: "traffic.transit_16.ladder"
+	allowed_vehicle[]: "traffic.transit_16.ladder_2"
+	allowed_vehicle[]: "traffic.transit_16.cargo"
+	allowed_vehicle[]: "traffic.transit_16"
+	allowed_vehicle[]: "traffic.transport_t6"
+
+}
+
+
+parked_vehicle: van.lights.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.ford_transit"
+	allowed_vehicle[]: "traffic.peugeotbo"
+	allowed_vehicle[]: "traffic.ducato"
+	allowed_vehicle[]: "traffic.ducato.plat"
+	allowed_vehicle[]: "traffic.ducato.box"
+	allowed_vehicle[]: "traffic.daily"
+	allowed_vehicle[]: "traffic.daily.box"
+	allowed_vehicle[]: "traffic.daily.curtain"
+	allowed_vehicle[]: "traffic.hymer"
+	allowed_vehicle[]: "traffic.transit_16.fr"
+	allowed_vehicle[]: "traffic.transit_16.glass"
+	allowed_vehicle[]: "traffic.transit_16.ladder"
+	allowed_vehicle[]: "traffic.transit_16.ladder_2"
+	allowed_vehicle[]: "traffic.transit_16.cargo"
+	allowed_vehicle[]: "traffic.transit_16"
+	allowed_vehicle[]: "traffic.transport_t6"
+
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+
+}
+
+
+parked_vehicle: truck.parked.physics
+{
+	allowed_vehicle_type[]: "truck"
+	low_poly_only: false
+}
+
+parked_vehicle: truck_only.rear_align.parked.physics		#truck rear align
+{
+	allowed_vehicle_type[]: "truck"
+	low_poly_only: false
+	allowed_trailer[]: ""
+	rear_align: true
+    always_visible: true
+}
+
+parked_vehicle: truck.parked.physics.0.25
+{
+	allowed_vehicle_type[]: "truck"
+	low_poly_only: false
+	probability_day:  0.25
+	probability_night: 0.25
+}
+
+parked_vehicle: truck_only.parked.physics
+{
+	allowed_vehicle_type[]: "truck"
+	allowed_trailer[]: ""
+	low_poly_only: false
+}
+
+parked_vehicle: truck_only.lights.parked.physics
+{
+	allowed_vehicle_type[]: "truck"
+	allowed_trailer[]: ""
+
+	low_poly_only: false
+	always_visible: true
+	driver: true
+
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+
+}
+
+parked_vehicle: brand_truck.parked.physics
+{
+	find_brand: true
+	allowed_vehicle_type[]: "truck"
+	allowed_trailer[]: ""
+	low_poly_only: false
+	always_visible: true
+}
+
+parked_vehicle: truck.always.parked.physics
+{
+	allowed_vehicle_type[]: "truck"
+	low_poly_only: false
+	always_visible: true
+}
+
+parked_vehicle: car.always.parked.physics
+{
+	allowed_vehicle_type[]: "car"
+	low_poly_only: false
+	always_visible: true
+}
+
+parked_vehicle: car.always.parked.lod.physics
+{
+	allowed_vehicle_type[]: "car"
+	low_poly_only: true
+	always_visible: true
+}
+
+parked_vehicle: bus.always.parked.physics
+{
+	allowed_vehicle[]: "traffic.opalin"
+	allowed_vehicle[]: "traffic.tourliner"
+	low_poly_only: false
+	always_visible: true
+	driver: false 
+}
+
+parked_vehicle: bus.short.always.parked.physics
+{
+	allowed_vehicle[]: "traffic.opalin"
+	low_poly_only: false
+	driver: false 
+}
+
+parked_vehicle: police.always.parked.physics
+{
+	allowed_vehicle_type[]: "police"
+	low_poly_only: false
+	always_visible: true
+}
+
+parked_vehicle: police.always.parked.physics.driver
+{
+	allowed_vehicle_type[]: "police"
+	low_poly_only: false
+	always_visible: true
+	driver: true
+}
+
+parked_vehicle: police.events.parked.physics.driver
+{
+	allowed_vehicle_type[]: "police"
+
+	low_poly_only: false
+	always_visible: true
+	driver: true
+ 	forced_flare_hooter: true
+	forced_flare_low_beam: true
+}
+
+parked_vehicle: fuel.events.parked.physics.driver
+{
+
+    allowed_vehicle[]: "traffic.fox_tank"
+
+	low_poly_only: false
+	always_visible: true
+	driver: true
+	forced_flare_low_beam: true
+}
+
+parked_vehicle: bike.always.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+
+
+	allowed_vehicle[]: "traffic.liberty"
+	allowed_vehicle[]: "traffic.vespa"
+	allowed_vehicle[]: "traffic.honda"
+
+}
+
+parked_vehicle: traffic.van_only.always.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.ford_transit"
+	allowed_vehicle[]: "traffic.transit_16.ev"
+	allowed_vehicle[]: "traffic.transport_t6"
+	forced_flare_hooter: true
+	forced_flare_blinker: true
+	forced_flare_low_beam: true
+
+}
+
+
+parked_vehicle: traffic.duc_plat.always.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+
+	allowed_vehicle[]: "traffic.ducato.plat"
+
+	forced_flare_hooter: true
+	forced_flare_blinker: true
+	forced_flare_low_beam: true
+
+}
+
+parked_vehicle: car.sport.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+	
+	driver: true
+
+	allowed_vehicle[]: "traffic.mazda_cx3.tuning_blk"
+	allowed_vehicle[]: "traffic.huracan"
+
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+
+}
+
+parked_vehicle: car.lights.parked.physics
+{
+	allowed_vehicle_type[]: "car"
+	low_poly_only: false
+	always_visible: true
+
+	driver: true
+
+	forced_flare_hooter: true
+	forced_flare_low_beam: true
+	
+	exclude_vehicle[]: "traffic.ford_transit"
+	exclude_vehicle[]: "traffic.peugeotbo"
+	exclude_vehicle[]: "traffic.ducato"
+	exclude_vehicle[]: "traffic.ducato.box"
+	exclude_vehicle[]: "traffic.ducato.plat"
+	exclude_vehicle[]: "traffic.ducato.van"
+	exclude_vehicle[]: "traffic.transit_16"
+	exclude_vehicle[]: "traffic.transit_16.dhl"
+	exclude_vehicle[]: "traffic.transit_16.fedex"
+	exclude_vehicle[]: "traffic.transit_16.fox"
+	exclude_vehicle[]: "traffic.transit_16.cbn"
+	exclude_vehicle[]: "traffic.transit_16.fr"
+	exclude_vehicle[]: "traffic.transit_16.glass"
+	exclude_vehicle[]: "traffic.transit_16.ladder"
+	exclude_vehicle[]: "traffic.transit_16.ladder_2"
+	exclude_vehicle[]: "traffic.transit_16.cargo"
+	exclude_vehicle[]: "traffic.transit_16.trailer"
+	exclude_vehicle[]: "traffic.transport_t6"
+	exclude_vehicle[]: "traffic.transport_t6.hook"
+	exclude_vehicle[]: "traffic.transport_t6.hook_ev"
+	exclude_vehicle[]: "traffic.crafter"
+	exclude_vehicle[]: "traffic.ulja_452"
+	
+}
+
+
+
+
+
+parked_vehicle: traffic.w250i.always.parked.physics  # road planer wirtgen w250i
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	allowed_vehicle[]: "traffic.w250i"
+
+}
+
+parked_vehicle: traffic.opalin.lights.always.parked.physics 
+{
+	low_poly_only: false
+	always_visible: true
+	driver: true
+	allowed_vehicle[]: "traffic.opalin"
+	allowed_vehicle[]: "traffic.tourliner"
+	
+	forced_flare_hooter: true
+	forced_flare_blinker: true
+	forced_flare_low_beam: true
+
+}
+
+parked_vehicle: traffic.tourliner.always.parked.physics 
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	allowed_vehicle[]: "traffic.tourliner"
+	
+	forced_flare_hooter: false
+	forced_flare_blinker: false
+	forced_flare_low_beam: false
+
+}
+
+parked_vehicle: traffic.shopcar.lights.always.parked.physics 
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	allowed_vehicle[]: "traffic.captur"
+	allowed_vehicle[]: "traffic.c3"
+	allowed_vehicle[]: "traffic.astra"
+	allowed_vehicle[]: "traffic.500l"
+	allowed_vehicle[]: "traffic.a3"
+	allowed_vehicle[]: "traffic.clio"
+	allowed_vehicle[]: "traffic.citroen_c4"
+	allowed_vehicle[]: "traffic.duck"
+	allowed_vehicle[]: "traffic.ford_smax"
+	allowed_vehicle[]: "traffic.ford_transit"
+	allowed_vehicle[]: "traffic.fabia"
+	allowed_vehicle[]: "traffic.k_ceed_c"
+	allowed_vehicle[]: "traffic.kia_ceed"
+	allowed_vehicle[]: "traffic.golf"
+	allowed_vehicle[]: "traffic.passat_2014"
+	allowed_vehicle[]: "traffic.mondeo"
+	allowed_vehicle[]: "traffic.tourer"
+	allowed_vehicle[]: "traffic.xc60"
+	allowed_vehicle[]: "traffic.transport_t6"
+	allowed_vehicle[]: "traffic.peugeot_407"
+	
+
+}
+
+parked_vehicle: truck_trlr.always.parked.physics.event
+{
+	allowed_vehicle_type[]: "truck"
+	low_poly_only: false
+	always_visible: true
+	driver: true
+	forced_flare_low_beam: true
+	
+	allowed_trailer[]: "traffic.trailer.scs_box.dry_van.default"
+	allowed_trailer[]: "traffic.trailer.scs_box.curtain.default"
+	allowed_trailer[]: "traffic.trailer.car_trans"
+	allowed_trailer[]: "traffic.trailer.car_fr"
+	allowed_trailer[]: "traffic.trailer.panel_trans"
+	allowed_trailer[]: "traffic.trailer.cement"
+	allowed_trailer[]: "traffic.trailer.scs_brick_r"
+	allowed_trailer[]: "traffic.trailer.fuel_cistern"
+	allowed_trailer[]: "traffic.trailer.scs_box.reefer.default"
+
+}
+
+parked_vehicle: truck_box.always.parked.physics
+{
+	allowed_vehicle_type[]: "truck"
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_low_beam: false
+	
+	allowed_trailer[]: "traffic.trailer.scs_box.dry_van.default"
+	allowed_trailer[]: "traffic.trailer.scs_box.curtain.default"
+	allowed_trailer[]: "traffic.trailer.panel_trans"
+	allowed_trailer[]: "traffic.trailer.fuel_cistern"
+	allowed_trailer[]: "traffic.trailer.scs_box.reefer.default"
+
+}
+
+parked_vehicle: truck_box.always.parked.physics.open_side.event
+{
+	allowed_vehicle_type[]: "truck"
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_low_beam: false
+
+	allowed_vehicle[]: "traffic.scania_r2016.a4x2"
+	allowed_vehicle[]: "traffic.scania_s2016.a4x2"
+	
+	allowed_trailer[]: "traffic.trailer.scs_box.curtain_op_s"
+
+}
+
+parked_vehicle: truck_box.always.parked.physics.open.event
+{
+	allowed_vehicle_type[]: "truck"
+	low_poly_only: false
+	always_visible: true
+	driver: false
+	forced_flare_low_beam: false
+	
+	allowed_vehicle[]: "traffic.scania_r2016.a4x2"
+	allowed_vehicle[]: "traffic.scania_s2016.a4x2"
+	
+	allowed_trailer[]: "traffic.trailer.scs_box.curtain_op"
+
+}
+
+
+parked_vehicle: construction.parked.physics
+{
+
+	low_poly_only: false
+    probability_day: 0.25
+	probability_night: 0.25
+    
+	allowed_vehicle[]: "traffic.fox_tipper"
+
+}
+
+parked_vehicle: farming.parked.physics
+{
+
+	low_poly_only: false
+    probability_day: 0.25
+	probability_night: 0.25
+    
+	allowed_vehicle[]: "traffic.tractor"
+	allowed_vehicle[]: "traffic.harvester"
+
+}
+	
+parked_vehicle: car.baltic.parked.physics
+{
+	allowed_vehicle_type[]: "car"
+	low_poly_only: false
+	
+	allowed_vehicle[]: "traffic.aleko"
+	allowed_vehicle[]: "traffic.duster"
+	allowed_vehicle[]: "traffic.granta"
+	allowed_vehicle[]: "traffic.l_119"
+	allowed_vehicle[]: "traffic.niva"
+	allowed_vehicle[]: "traffic.riva_sedan"
+	allowed_vehicle[]: "traffic.ulja_452"
+
+}
+
+
+
+
+parked_vehicle: constru_east.parked.physics
+{
+
+	low_poly_only: false
+    probability_day: 0.25
+	probability_night: 0.25
+    
+	allowed_vehicle[]: "traffic.sem_mixer"
+	allowed_vehicle[]: "traffic.sem_crane"
+	allowed_vehicle[]: "traffic.sem_dumper"
+
+}
+
+parked_vehicle: police.customs.tr.always.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+	driver: true
+ 	forced_flare_hooter: false
+	forced_flare_low_beam: false
+    
+    allowed_vehicle[]: "traffic.transport_t6.tr_customs"
+}
+
+parked_vehicle: police.customs.bg.always.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+	driver: true
+ 	forced_flare_hooter: false
+	forced_flare_low_beam: false
+    
+    allowed_vehicle[]: "traffic.transport_t6.bg_customs"
+}
+
+parked_vehicle: police.customs.ro.always.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+	driver: true
+ 	forced_flare_hooter: false
+	forced_flare_low_beam: false
+    
+    allowed_vehicle[]: "traffic.duster.ro_customs"
+}
+
+parked_vehicle: police.customs.blke.always.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+	driver: false
+ 	forced_flare_hooter: false
+	forced_flare_low_beam: false
+    
+    allowed_vehicle[]: "traffic.duster.ro_customs"
+    allowed_vehicle[]: "traffic.transport_t6.bg_customs"
+    allowed_vehicle[]: "traffic.transport_t6.tr_customs"
+	
+}
+
+parked_vehicle: police.customs.flare.blke.always.parked.physics
+{
+	low_poly_only: false
+	always_visible: true
+	driver: true
+ 	forced_flare_hooter: true
+	forced_flare_low_beam: true
+    
+    allowed_vehicle[]: "traffic.duster.ro_customs"
+    allowed_vehicle[]: "traffic.transport_t6.bg_customs"
+    allowed_vehicle[]: "traffic.transport_t6.tr_customs"
+	
+}
+}

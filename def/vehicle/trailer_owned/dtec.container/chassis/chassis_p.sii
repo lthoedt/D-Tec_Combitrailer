@@ -1,0 +1,51 @@
+SiiNunit
+{
+accessory_chassis_data : chassis_p.dtec.container.chassis
+{
+	name: "@@Container Paint @@"
+	price: 28000
+	unlock: 0
+	icon: "chassis/scs_gooseneck/ch3_40"
+	
+	detail_model: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd"
+	model: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd" # traffic
+	lods[]: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd"
+	lods[]: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd"
+
+	collision: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmc"
+
+	residual_travel[]: 0.10 	# 5st axle
+	residual_travel[]: 0.10 	# 2nd axle
+	residual_travel[]: 0.10 	# 1rd axle
+	residual_travel[]: 0.10 	# 4rd axle
+	residual_travel[]: 0.10 	# 3rd axle
+	
+	liftable_axle[]: true
+	liftable_axle[]: true
+	liftable_axle[]: false
+	liftable_axle[]: false
+	liftable_axle[]: true
+
+	steerable_axle[]: true
+	steerable_axle[]: true
+	steerable_axle[]: true  #rear wheel left
+	steerable_axle[]: false
+	steerable_axle[]: true
+ 
+	trailer_mass: 6700.0
+
+	variant: empty #Empty
+	look: default
+
+    extended_shadow_texture: "/vehicle/trailer_eu/ui_shadow/comboshadd.tobj"
+	extended_shadow_intensity: 1.2
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+
+	ui_shadow: "/vehicle/trailer_eu/ui_shadow/comboshad.pmd"
+
+	
+
+
+}
+}

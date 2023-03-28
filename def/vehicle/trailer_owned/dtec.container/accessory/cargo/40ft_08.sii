@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : 40ft_08.dtec.container.cargo
+{
+	name: "40ft MSC"
+	price: 1000
+	unlock: 0
+	icon: "msc"
+
+	exterior_model: "/vehicle/containers/owned_c133/40ft_1_1.pmd"
+	coll: "/vehicle/containers/owned_c133/40ft_1_1.pmc"
+	look : msc1
+}
+}

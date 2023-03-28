@@ -1,0 +1,15 @@
+material : "eut2.dif.spec.mult.dif.spec.add.env.rfx" {
+	texture[0] : "/vehicle/trailer_owned/upgrade/wheel/abass_textures/steel_rim_offset_0.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/trailer_owned/upgrade/wheel/abass_textures/single_rim_over.tobj"
+	texture_name[1] : "texture_mult"
+	texture[2] : "/material/environment/fuzzy_reflection/fuzzy_reflection.tobj"
+	texture_name[2] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 1.05178 , 1.05178 , 1.05178 }
+	env_factor : { 1 , 1 , 1 }
+	fresnel : { 0.2 , 0.9 }
+	reflection : 0
+	shininess : 80
+	specular : { 0.43678 , 0.43678 , 0.43678 }
+}

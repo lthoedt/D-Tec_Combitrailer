@@ -1,0 +1,11 @@
+material : "eut2.dif.spec.add.env.rfx" {
+	texture[0] : "/vehicle/trailer_owned/upgrade/wheel/abass_textures/bpw_eco_plus_hub_offset_0.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/fuzzy_reflection/fuzzy_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 0.235482 , 0.235482 , 0.235482 }
+	fresnel : { 0.2 , 0.9 }
+	shininess : 50
+	specular : { 0.321569 , 0.321569 , 0.321569 }
+}

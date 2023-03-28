@@ -1,0 +1,5 @@
+material : "ui" 
+{ 
+	texture: "far_s_mirror_reflection.tobj"
+	texture_name : "texture" 
+} 

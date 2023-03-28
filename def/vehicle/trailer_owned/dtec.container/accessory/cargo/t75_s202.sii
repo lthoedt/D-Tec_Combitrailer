@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_data : t75_s202.dtec.container.cargo
+{
+	name: "ISO tank LESCHACO2"
+	price: 1000
+	unlock: 0
+	icon: "leschaco"
+
+	exterior_model: "/vehicle/containers/owned_t135/t75_s201.pmd"
+	coll: "/vehicle/containers/owned_t135/t75_s201.pmc"
+	variant: default
+	look : nitrogen1
+}
+}

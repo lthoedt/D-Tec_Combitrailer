@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : 20ft2_01.dtec.container.cargo
+{
+	name: "20ftx2 JR"
+	price: 1000
+	unlock: 0
+	icon: "20ftx2"
+
+	exterior_model: "/vehicle/containers/owned_c133/20ft_2_1.pmd"
+	coll: "/vehicle/containers/owned_c133/20ft_2_1.pmc"
+	look : jr1
+}
+}

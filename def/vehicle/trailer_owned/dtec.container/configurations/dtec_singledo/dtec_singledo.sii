@@ -1,0 +1,10 @@
+SiiNunit
+{
+trailer_body_set : .dtec_singledo
+{
+	name: "@@dtec dolly body@@"
+	icon: "chassis/scs_gooseneck/ch3_40"
+	trailer_definition: trailer_def.dtec.doem
+	body[]: "/def/vehicle/trailer_owned/dtec.container/body/bodydoem.sii"
+}
+}

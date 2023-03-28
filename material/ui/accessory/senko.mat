@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "senko.tobj"
+	texture_name : "texture"
+}
