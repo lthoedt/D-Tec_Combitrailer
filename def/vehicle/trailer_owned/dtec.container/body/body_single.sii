@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_trailer_body_data : bodyp.dtec.container.body
+accessory_trailer_body_data : body_single.dtec.container.body
 {
 	name: "@@dtec container paint@@"
 	price: 26000

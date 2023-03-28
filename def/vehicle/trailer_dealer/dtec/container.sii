@@ -42,11 +42,11 @@ vehicle_accessory: .data
 }
 vehicle_accessory: .chassis
 {
-	data_path: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis_p.sii"
+	data_path: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis.sii"
 }
 vehicle_accessory: .body
 {
-	data_path: "/def/vehicle/trailer_owned/dtec.container/body/bodyp.sii"
+	data_path: "/def/vehicle/trailer_owned/dtec.container/body/body_single.sii"
 }
 vehicle_wheel_accessory: .tire
 {

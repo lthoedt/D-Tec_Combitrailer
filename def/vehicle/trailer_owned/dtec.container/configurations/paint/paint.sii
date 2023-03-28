@@ -7,6 +7,6 @@ trailer_body_set : .paint
 	trailer_definition: trailer_def.paint
 	
 	body[]: "/def/vehicle/trailer_owned/dtec.container/body/bodydoemp.sii"
-	body[]: "/def/vehicle/trailer_owned/dtec.container/body/bodyp.sii"
+	body[]: "/def/vehicle/trailer_owned/dtec.container/body/body_single.sii"
 }
 }
