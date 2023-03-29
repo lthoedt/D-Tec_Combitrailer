@@ -5,6 +5,6 @@ trailer_configuration : .single_dolly
 	name: "@@2 Axles, Steerable@@"
 	chain_type: single
 	icon: "chassis/scs_gooseneck/ch3_40"
-	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/paintdolly.sii"
+	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis_dolly.sii"
 }
 }

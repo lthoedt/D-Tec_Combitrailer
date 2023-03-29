@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_chassis_data : paintdolly.dtec.container.chassis
+accessory_chassis_data : chassis.dolly.dtec.container.chassis
 {
 	name: "@@Chassis dolly@@"
 	price: 28000
