@@ -9,7 +9,7 @@ accessory_chassis_data : chassis.dtec.container.chassis
 	
 	detail_model: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd"
 	model: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd" # traffic
-	lods[]: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd"
+	lods[]: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd"	
 
 	collision: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmc"
 
