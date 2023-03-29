@@ -1,6 +1,6 @@
 SiiNunit
 {
-trailer_body_set : .paint
+trailer_body_set : .b_double
 {
 	name: "@@dtec combi paint@@"
 	icon: "chassis/scs_gooseneck/ch3_40"
