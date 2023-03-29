@@ -10,15 +10,16 @@ accessory_chassis_data : chassis.dolly.dtec.container.chassis
 	detail_model: "/vehicle/trailer_eu/dtec_combi5/trailerdoem_p.pmd"
 	model: "/vehicle/trailer_eu/dtec_combi5/trailerdoem_p.pmd" # traffic
 	lods[]: "/vehicle/trailer_eu/dtec_combi5/trailerdoem_p.pmd"
-	lods[]: "/vehicle/trailer_eu/dtec_combi5/trailerdoem_p.pmd"
 	
 	collision: "/vehicle/trailer_eu/dtec_combi5/trailerdoem_p.pmc"
 
-	residual_travel[]: 0.10 	# 2st axle
-	residual_travel[]: 0.10 	# 1nd axle
+	residual_travel[0]: 0.10 	# 2st axle
+	residual_travel[1]: 0.10 	# 1nd axle
     
-	steerable_axle[]: true
-	steerable_axle[]: true		#rear wheel left
+	steerable_axle[0]: true
+	steerable_axle[1]: true		#rear wheel left
+
+	liftable_axle[0]: true
 
 	trailer_mass: 4850.0
 
