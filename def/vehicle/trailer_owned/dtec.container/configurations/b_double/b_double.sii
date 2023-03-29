@@ -2,7 +2,7 @@ SiiNunit
 {
 trailer_body_set : .b_double
 {
-	name: "@@dtec combi paint@@"
+	name: "@@Combitrailer with dolly@@"
 	icon: "chassis/scs_gooseneck/ch3_40"
 	trailer_definition: trailer_def.paint
 	

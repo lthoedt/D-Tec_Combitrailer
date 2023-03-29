@@ -2,7 +2,7 @@ SiiNunit
 {
 trailer_configuration : .paint
 {
-	name: "@@dteccombi Paint@@"
+	name: "@@7 Axles, 3 Steerable@@"
 	chain_type: b_double
 	icon: "chassis/scs_gooseneck/ch3_40"
 	
