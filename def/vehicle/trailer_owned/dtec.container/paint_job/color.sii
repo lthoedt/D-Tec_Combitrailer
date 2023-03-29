@@ -2,10 +2,12 @@ SiiNunit
 {
 accessory_paint_job_data : color.dtec.container.paint_job
 {
-	name: "dtec"
+	name: "Blue"
 	price: 2600
-	icon: ""
-	base_color: (0.1882, 0.5608, 0.7882) // This is the default color.
-	base_color_locked: false
+	unlock: 0
+	base_color: (0.0262, 0.107, 0.2874)
+	base_color_locked: true
+	stock: true
+	part_type: aftermarket
 }
 }

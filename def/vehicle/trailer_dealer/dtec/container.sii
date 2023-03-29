@@ -169,19 +169,7 @@ vehicle_wheel_accessory: .nuts4
 	data_path: "/def/vehicle/trailer_wheel/r_nuts/nuts_steel_0_01.sii"
 }
 vehicle_paint_job_accessory : .paint_job
-
 {
-	mask_r_color: (1.0, 0.0, 0.0)
-
-	mask_g_color: (0.0, 1.0, 0.0)
-
-	mask_b_color: (0.0, 0.0, 1.0)
-
-	base_color: (&3f470a3d, &3f36c8b4, &3e4adaba)
-
-	wear: 0
-
-	data_path: "/def/vehicle/trailer_owned/scs.flatbed/paint_job/color.sii"
-
+	data_path: "/def/vehicle/trailer_owned/dtec.container/paint_job/color.sii"
 }
 }
