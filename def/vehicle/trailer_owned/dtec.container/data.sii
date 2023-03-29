@@ -4,7 +4,5 @@ accessory_trailer_data : vehicle.dtec.container
 {
 	info[]: ""				# brand
 	info[]: "@@dtec.container@@"	# series/type
-
-
 }
 }

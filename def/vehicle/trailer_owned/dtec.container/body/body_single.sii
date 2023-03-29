@@ -2,7 +2,7 @@ SiiNunit
 {
 accessory_trailer_body_data : body_single.dtec.container.body
 {
-	name: "@@dtec container paint@@"
+	name: "@@D-TEC Combitrailer@@"  // On dealer screen.
 	price: 26000
 	unlock: 0
 	icon: "body/scs_flatbed/flatbed_s"

@@ -2,7 +2,7 @@ SiiNunit
 {
 accessory_chassis_data : paintdolly.dtec.container.chassis
 {
-	name: "@@Container paint doem@@"
+	name: "@@Chassis dolly@@"
 	price: 28000
 	unlock: 0
 	icon: "chassis/scs_gooseneck/ch3_40"

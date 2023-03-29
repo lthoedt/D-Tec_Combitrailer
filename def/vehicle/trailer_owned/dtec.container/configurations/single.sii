@@ -2,7 +2,7 @@ SiiNunit
 {
 trailer_configuration : .single
 {
-	name: "@@D-TEC combitrailer@@"
+	name: "@@5 Axles, 3 Steerable@@"
 	chain_type: single
 	icon: "chassis/scs_gooseneck/ch3_40"
 	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis.sii"

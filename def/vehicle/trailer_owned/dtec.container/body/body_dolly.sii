@@ -2,7 +2,7 @@ SiiNunit
 {
 accessory_trailer_body_data : body_dolly.dtec.container.body
 {
-	name: "@@dtec doem paint@@"
+	name: "@@D-TEC dolly@@" // On dealer screen.
 	price: 26000
 	unlock: 0
 	icon: "body/scs_flatbed/flatbed_s"
