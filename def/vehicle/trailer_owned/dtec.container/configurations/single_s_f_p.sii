@@ -1,0 +1,10 @@
+SiiNunit
+{
+trailer_configuration : .single_s_f_p
+{
+	name: "@@2 Axles, 2 Steerable, Split Front, Height pin@@"
+	chain_type: single
+	icon: "chassis/scs_gooseneck/ch3_40"
+	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis_s_f_p.sii"
+}
+}

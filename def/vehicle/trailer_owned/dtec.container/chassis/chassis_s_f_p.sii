@@ -1,0 +1,41 @@
+SiiNunit
+{
+accessory_chassis_data : chassis.dtec.container.ch_s_f_p
+{
+	name: "@@Chassis@@"
+	price: 28000
+	unlock: 0
+	icon: "chassis/scs_gooseneck/ch3_40"
+	
+	detail_model: "/vehicle/trailer_eu/dtec_combi5/trailer_split_front_height_pin.pmd"
+	model: "/vehicle/trailer_eu/dtec_combi5/trailer_split_front_height_pin.pmd" # traffic
+	lods[]: "/vehicle/trailer_eu/dtec_combi5/trailer_split_front_height_pin.pmd"	
+
+	collision: "/vehicle/trailer_eu/dtec_combi5/trailer_split_front_height_pin.pmc"
+
+	residual_travel[0]: 0.10 	# 1rd axle
+	residual_travel[1]: 0.10 	# 2nd axle
+	
+	liftable_axle[0]: true
+	liftable_axle[1]: false
+
+	steerable_axle[0]: true
+	steerable_axle[1]: true
+ 
+	trailer_mass: 6700.0
+
+	variant: default #Empty
+	look: default
+
+    extended_shadow_texture: "/vehicle/trailer_eu/ui_shadow/comboshadd.tobj"
+	extended_shadow_intensity: 1.2
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+
+	ui_shadow: "/vehicle/trailer_eu/ui_shadow/comboshad.pmd"
+
+	
+
+
+}
+}
