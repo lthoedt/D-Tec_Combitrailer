@@ -7,11 +7,11 @@ accessory_chassis_data : chassis.dolly.dtec.container.chassis
 	unlock: 0
 	icon: "chassis/scs_gooseneck/ch3_40"
 	
-	detail_model: "/vehicle/trailer_eu/dtec_combi5/dolly.pmd"
-	model: "/vehicle/trailer_eu/dtec_combi5/dolly.pmd" # traffic
-	lods[]: "/vehicle/trailer_eu/dtec_combi5/dolly.pmd"
+	detail_model: "/vehicle/trailer_eu/dtec_combi5/dolly_p.pmd"
+	model: "/vehicle/trailer_eu/dtec_combi5/dolly_p.pmd" # traffic
+	lods[]: "/vehicle/trailer_eu/dtec_combi5/dolly_p.pmd"
 	
-	collision: "/vehicle/trailer_eu/dtec_combi5/dolly.pmc"
+	collision: "/vehicle/trailer_eu/dtec_combi5/dolly_p.pmc"
 
 	residual_travel[0]: 0.10 	# 2st axle
 	residual_travel[1]: 0.10 	# 1nd axle
