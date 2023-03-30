@@ -2,7 +2,7 @@ SiiNunit
 {
 accessory_trailer_body_data : body_45_e.dtec.container.body
 {
-	name: "@@D-TEC Combitrailer 45ft extended@@"  // On dealer screen.
+	name: "@@D-TEC Combitrailer 45ft Extended@@"  // On dealer screen.
 	price: 26000
 	unlock: 0
 	icon: "body/scs_flatbed/flatbed_s"
