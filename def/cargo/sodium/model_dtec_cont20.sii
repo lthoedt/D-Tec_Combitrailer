@@ -1,0 +1,8 @@
+SiiNunit
+{
+cargo_model_match : .scs_cont20
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/dtec.container/body/body_dolly.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/scs_container/container_t14_sodium.sii"
+}
+}
