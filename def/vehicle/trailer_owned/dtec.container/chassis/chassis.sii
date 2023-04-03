@@ -33,7 +33,7 @@ accessory_chassis_data : chassis.dtec.container.chassis
  
 	trailer_mass: 6700.0
 
-	variant: empty #Empty
+	variant: 40ft #Empty
 	look: default
 
     extended_shadow_texture: "/vehicle/trailer_eu/ui_shadow/comboshadd.tobj"

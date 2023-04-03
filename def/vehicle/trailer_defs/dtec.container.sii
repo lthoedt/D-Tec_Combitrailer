@@ -2,8 +2,8 @@ SiiNunit
 {
 trailer_def : trailer_def.dtec.container
 {
-	gross_trailer_weight_limit: 35000
-	chassis_mass: 6850
+	gross_trailer_weight_limit: 62000
+	chassis_mass: 8200
 	body_mass: 0
 	length: 13.7
 	axles: 5
