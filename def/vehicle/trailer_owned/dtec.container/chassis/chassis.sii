@@ -31,7 +31,7 @@ accessory_chassis_data : chassis.dtec.container.chassis
 	steerable_axle[3]: false
 	steerable_axle[4]: true
  
-	trailer_mass: 6700.0
+	trailer_mass: 8200.0
 
 	variant: 40ft #Empty
 	look: default
