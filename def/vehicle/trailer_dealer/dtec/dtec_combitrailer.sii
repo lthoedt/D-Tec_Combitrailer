@@ -8,8 +8,8 @@ trailer : .dtec.container
 	accessories[]: .chassis
 	accessories[]: .body
 
-	// accessories[]: .f_bumper
-	// accessories[]: .r_bumper
+	accessories[]: .f_bumper
+	accessories[]: .r_bumper
 
 	accessories[]: .tire
 	accessories[]: .disc
@@ -51,14 +51,14 @@ vehicle_accessory: .body
 {
 	data_path: "/def/vehicle/trailer_owned/dtec.container/body/body_single.sii"
 }
-// vehicle_addon_accessory: .f_bumper
-// {
-// 	data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/r_bumper/dtec_standard.sii"
-// }
-// vehicle_addon_accessory: .r_bumper
-// {
-// 	data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/r_bumper/dtec_standard.sii"
-// }
+vehicle_addon_accessory: .f_bumper
+{
+	data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/f_bumper/dtec_standard.sii"
+}
+vehicle_addon_accessory: .r_bumper
+{
+	data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/r_bumper/dtec_standard.sii"
+}
 
 vehicle_wheel_accessory: .tire
 {
