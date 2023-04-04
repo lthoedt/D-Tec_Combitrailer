@@ -1,0 +1,10 @@
+SiiNunit
+{
+trailer_configuration : .single_53_e
+{
+	name: "@@53ft Extended@@"
+	chain_type: single
+	icon: "chassis/scs_gooseneck/ch3_40"
+	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis_53_e.sii"
+}
+}
