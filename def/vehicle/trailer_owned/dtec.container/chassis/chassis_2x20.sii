@@ -7,11 +7,11 @@ accessory_chassis_data : chassis.dtec.container.chassis_2x20
 	unlock: 0
 	icon: "chassis/scs_gooseneck/ch3_40"
 	
-	detail_model: "/vehicle/trailer_eu/dtec_combi5/trailer_2x20.pmd"
-	model: "/vehicle/trailer_eu/dtec_combi5/trailer_2x20.pmd" # traffic
-	lods[]: "/vehicle/trailer_eu/dtec_combi5/trailer_2x20.pmd"	
+	detail_model: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd"
+	model: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd" # traffic
+	lods[]: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd"	
 
-	collision: "/vehicle/trailer_eu/dtec_combi5/trailer_2x20.pmc"
+	collision: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmc"
 
 	residual_travel[0]: 0.10 	# 1rd axle
 	residual_travel[1]: 0.10 	# 2nd axle
@@ -31,9 +31,9 @@ accessory_chassis_data : chassis.dtec.container.chassis_2x20
 	steerable_axle[3]: false
 	steerable_axle[4]: true
  
-	trailer_mass: 6700.0
+	trailer_mass: 8200.0
 
-	variant: empty #Empty
+	variant: 2x20ft #Empty
 	look: default
 
     extended_shadow_texture: "/vehicle/trailer_eu/ui_shadow/comboshadd.tobj"
