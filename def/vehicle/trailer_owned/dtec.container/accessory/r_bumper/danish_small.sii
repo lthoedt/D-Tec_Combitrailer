@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : danish_s.dtec.container.r_bumper
+{
+	name: "@@Danish@@ small"
+	price: 620
+	unlock: 6
+	icon: "r_bumper/scs_box/rear_bump_paint_single"
+
+	exterior_model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/bumper_danish_small.pmd"
+}
+}
