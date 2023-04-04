@@ -31,9 +31,9 @@ accessory_chassis_data : chassis.dtec.container.chassis_45
 	steerable_axle[3]: false
 	steerable_axle[4]: true
  
-	trailer_mass: 6700.0
+	trailer_mass: 8200.0
 
-	variant: 1x20ft #Empty
+	variant: default #Empty
 	look: default
 
     extended_shadow_texture: "/vehicle/trailer_eu/ui_shadow/comboshadd.tobj"

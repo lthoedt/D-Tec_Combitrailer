@@ -1,0 +1,12 @@
+SiiNunit
+{
+cargo_model_match : .scs_cont45
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/dtec.container/body/body_single_45.sii"
+	compatible_body[]: "/def/vehicle/trailer_owned/dtec.container/body/body_single_45_e.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/dtec_combitrailer/container_45_blue.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/dtec_combitrailer/container_45_green.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/dtec_combitrailer/container_45_red.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/dtec_combitrailer/container_45_silver.sii"
+}
+}
