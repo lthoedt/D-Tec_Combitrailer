@@ -1,4 +1,15 @@
-D-TEC Combitrailer by Peerke145 with updated by xtrucker36
+D-TEC Combitrailer by Peerke145 Enhanced by Dutchta
+
+V2
+- Added visible cargo
+- Fixed textures.
+- Chassis
+	- Added 45ft, 53ft
+	- All paintable.
+- Added lights.
+- Added bumper customization.
+- Added beacon customization.
+- Changed trailer to truck connector part to the real life version.
 
 V1.2
 -fixed trailer cables between dolly and trailer
@@ -14,6 +25,7 @@ Wheels: 		Ventyres and Bora
 Updated Cargos: 	John Dalton
 DLC Scandinavia ready:  John Dalton
 DLC France/Going East:	SMG
+V2 improvements:		Dutchta
 
 The GigaLiner Repot the country on 1.31.
 denmark

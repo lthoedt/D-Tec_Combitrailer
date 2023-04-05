@@ -5,13 +5,13 @@ SiiNunit
 mod_package : .package_name {
 
     # Package version can be any string with any length.
-    package_version: "1.2"
+    package_version: "2"
 
     # Display name can be any string with any length.
     display_name: "D-Tec Combitrailer"
 
     # Author can be any string with any length.
-    author: "Peerke145,(converted by kartal2339) SMG, (Fixed by Dutchta) Igor, EED123, Tony1971, Holly, Samson, SheryO, Nordisch, Pauli, Arnook, Ventyres and Bora, Marc D."
+    author: "Peerke145, (Enhanced by Dutchta) (converted by kartal2339) SMG, Igor, EED123, Tony1971, Holly, Samson, SheryO, Nordisch, Pauli, Arnook, Ventyres and Bora, Marc D."
 
     # Categories is an array of strings.
     category[]: "trailer"
