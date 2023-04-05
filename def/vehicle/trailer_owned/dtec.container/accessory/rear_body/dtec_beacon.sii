@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : dtec_beacon.dtec.container.rear_body
+{
+	name: "@@Beacon@@"
+	price: 400
+	unlock: 6
+	icon: "rear_body/scs_flatbed/beacon"
+
+	exterior_model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/rear_body/dtec_beacon.pmd"
+}
+}
