@@ -9,4 +9,5 @@ SiiNunit
 # same namespace so suffixes or prefixes should be used to avoid conflicts.
 
 @include "cargo/generator_c.sui"
+@include "cargo/houses_c.sui"
 }

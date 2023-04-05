@@ -1,0 +1,12 @@
+cargo_data: cargo.houses_c
+{
+	name: "@@House@@"
+	fragility: 0.4
+	group[]: containers
+	volume: 80
+	mass: 3800
+	unit_reward_per_km: 10
+	unit_load_time: 300
+	body_types[]: container
+	body_types[]: flatbed_cont
+}
