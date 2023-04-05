@@ -1,0 +1,10 @@
+SiiNunit
+{
+cargo_model_match : .scs_cont40
+{
+	compatible_body[]: "/def/vehicle/trailer_owned/dtec.container/body/body_single.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/dtec_combitrailer/container_40_generator.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/dtec_combitrailer/container_40_generator_red.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/dtec_combitrailer/container_40_generator_blue.sii"
+}
+}

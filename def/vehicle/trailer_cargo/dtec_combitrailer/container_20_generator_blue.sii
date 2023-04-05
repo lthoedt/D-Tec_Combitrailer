@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_cargo_data : .cargo20
+{
+	model: "/vehicle/share/models/containers/p_generator_20.pmd"
+	lods[]: "/vehicle/share/models/containers/p_generator_20_lod1.pmd"
+	lods[]: "/vehicle/share/models/containers/p_generator_20_lod2.pmd"
+	collision: "/vehicle/share/models/containers/p_generator_20.pmc"
+ 
+	variant: default
+	look: blue
+}
+}
+

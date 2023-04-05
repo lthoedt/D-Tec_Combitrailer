@@ -1,0 +1,13 @@
+cargo_data: cargo.generator_c
+{
+	name: "@@Generator@@"
+	fragility: 0.2
+	group[]: containers
+	group[]: machinery
+	volume: 80
+	mass: 22000
+	unit_reward_per_km: 10
+	unit_load_time: 300
+	body_types[]: container
+	body_types[]: flatbed_cont
+}
