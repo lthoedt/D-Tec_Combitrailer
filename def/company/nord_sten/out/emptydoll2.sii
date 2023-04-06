@@ -1,7 +1,0 @@
-SiiNunit
-{
-cargo_def : emptydoll2 {
- cargo: "cargo.emptydoll2"
-}
-
-}

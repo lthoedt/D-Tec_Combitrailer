@@ -1,7 +1,0 @@
-SiiNunit
-{
-cargo_def : empty2 {
- cargo: "cargo.emptydtec2"
-}
-
-}
