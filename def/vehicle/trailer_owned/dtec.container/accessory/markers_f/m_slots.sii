@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : m_slots.dtec.container.markers_f
+{
+	name: "Slots"
+	price: 1
+	unlock: 1
+	icon: "markers/scs_box/us_style"
+	part_type: aftermarket
+
+	exterior_model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/markers_f/marker_slots_front.pmd"
+}
+}

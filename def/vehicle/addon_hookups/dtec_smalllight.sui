@@ -1,0 +1,144 @@
+accessory_hookup_data : smlight1.addon_hookup
+{
+	name: "Light Chrome 1"
+	price: 90
+	icon: "smalllight_01"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/smalllight/smalllight_01.pmd"
+	electric_type: aux_light
+	suitable_for[]: "markers_f"
+	suitable_for[]: "markers_r"
+	unlock: 4
+}
+accessory_hookup_data : smlight2.addon_hookup
+{
+	name: "Light Chrome 2"
+	price: 120
+	icon: "smalllight_02"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/smalllight/smalllight_02.pmd"
+	electric_type: aux_light
+	suitable_for[]: "markers_f"
+	suitable_for[]: "markers_r"
+	unlock: 6
+}
+accessory_hookup_data : smlight3.addon_hookup
+{
+	name: "Light Chrome 3"
+	price: 110
+	icon: "smalllight_03"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/smalllight/smalllight_03.pmd"
+	electric_type: aux_light
+	suitable_for[]: "markers_f"
+	suitable_for[]: "markers_r"
+ 	unlock: 8
+}
+accessory_hookup_data : smlight4.addon_hookup
+{
+	name: "Light Chrome 4"
+	price: 90
+	icon: "smalllight_04"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/smalllight/smalllight_04.pmd"
+	electric_type: aux_light
+	suitable_for[]: "markers_f"
+	suitable_for[]: "markers_r"
+	unlock: 10
+}
+accessory_hookup_data : smlight5.addon_hookup
+{
+	name: "Light Chrome 5"
+	price: 90
+	icon: "smalllight_05"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/smalllight/smalllight_05.pmd"
+	electric_type: aux_light
+	suitable_for[]: "markers_f"
+	suitable_for[]: "markers_r"
+	unlock: 12
+}
+accessory_hookup_data : smlight6.addon_hookup
+{
+	name: "Light Chrome 6"
+	price: 110
+	icon: "smalllight_06"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/smalllight/smalllight_06.pmd"
+	electric_type: aux_light
+	suitable_for[]: "markers_f"
+	suitable_for[]: "markers_r"
+	unlock: 14
+}
+accessory_hookup_data : smlight7.addon_hookup
+{
+	name: "Small Side Marker (R)"
+	price: 110
+	icon: "smalllight_08"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/smalllight/marker_2.pmd"
+	electric_type: aux_light
+	suitable_for[]: "markers_f"
+	suitable_for[]: "markers_r"
+	unlock: 4
+}
+accessory_hookup_data : smlight8.addon_hookup
+{
+	name: "Small Side Marker (L)"
+	price: 110
+	icon: "smalllight_07"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/smalllight/marker_1.pmd"
+	electric_type: aux_light
+	suitable_for[]: "markers_f"
+	suitable_for[]: "markers_r"
+	unlock: 4
+}
+accessory_hookup_data : smlight9.addon_hookup
+{
+	name: "Large Side Marker (R)"
+	price: 120
+	icon: "smalllight_10"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/smalllight/marker_l_2.pmd"
+	electric_type: aux_light
+	suitable_for[]: "markers_f"
+	suitable_for[]: "markers_r"
+	unlock: 8
+}
+accessory_hookup_data : smlight10.addon_hookup
+{
+	name: "Large Side Marker (L)"
+	price: 120
+	icon: "smalllight_09"
+	part_type: aftermarket
+	model: "/vehicle/truck/upgrade/smalllight/marker_l_1.pmd"
+	electric_type: aux_light
+	suitable_for[]: "markers_f"
+	suitable_for[]: "markers_r"
+	unlock: 8
+}
+accessory_hookup_data : dteclight1.addon_hookup
+{
+	name: "D-TEC Light"
+	price: 120
+	icon: "smalllight_09"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/dtec_markers/dtec_markers_1.pmd"
+	electric_type: aux_light
+	suitable_for[]: "markers_f"
+	suitable_for[]: "markers_r"
+	unlock: 8
+}
+accessory_hookup_data : dteclight2.addon_hookup
+{
+	name: "D-TEC Light (Alternative)"
+	price: 120
+	icon: "smalllight_09"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/dtec_markers/dtec_markers_2.pmd"
+	electric_type: aux_light
+	suitable_for[]: "markers_f"
+	suitable_for[]: "markers_r"
+	unlock: 8
+}

@@ -7,8 +7,10 @@ V2
 	- Added 45ft, 53ft
 	- All paintable.
 - Added lights.
-- Added bumper customization.
-- Added beacon customization.
+- Added customization:
+	- bumper
+	- beacon
+	- marker
 - Changed trailer to truck connector part to the real life version.
 
 V1.2
