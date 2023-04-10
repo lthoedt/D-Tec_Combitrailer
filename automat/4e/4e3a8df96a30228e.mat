@@ -1,0 +1,10 @@
+material : "eut2.dif.spec.shadow.rfx" {
+	texture[0] : "/vehicle/trailer_eu/dtec_combi5/textures/gummi.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.4 , 0.4 , 0.4 }
+	reflection : 0
+	shadow_bias : 0
+	shininess : 75
+	specular : { 0.0901961 , 0.0901961 , 0.0901961 }
+}
