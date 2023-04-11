@@ -37,6 +37,9 @@ trailer : .dtec.container
 	accessories[]: .nuts4
 	
 	accessories[]: .paint_job
+
+	accessories[]: .markers_f
+	accessories[]: .markers_r
 	
 }
 vehicle_accessory: .data
@@ -183,5 +186,12 @@ vehicle_wheel_accessory: .nuts4
 vehicle_paint_job_accessory : .paint_job
 {
 	data_path: "/def/vehicle/trailer_owned/dtec.container/paint_job/color.sii"
+}
+
+vehicle_addon_accessory : .markers_f {
+    data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/markers_f/m_slots.sii"
+}
+vehicle_addon_accessory : .markers_r {
+    data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/markers_r/m_slots.sii"
 }
 }

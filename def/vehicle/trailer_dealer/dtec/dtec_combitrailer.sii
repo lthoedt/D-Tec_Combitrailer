@@ -188,28 +188,10 @@ vehicle_paint_job_accessory : .paint_job
 	data_path: "/def/vehicle/trailer_owned/dtec.container/paint_job/color.sii"
 }
 
-// vehicle_addon_accessory : .m_slots_f {
-//     data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/markers/m_slots.sii"
-// }
-
 vehicle_addon_accessory : .markers_f {
-    // slot_name: 2
-    // slot_name[0]: slot_0
-    // slot_name[1]: slot_1
-    // slot_hookup: 2
-    // slot_hookup[0]: "smlight10.addon_hookup"
-    // slot_hookup[1]: "smlight9.addon_hookup"
-
     data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/markers_f/m_slots.sii"
 }
 vehicle_addon_accessory : .markers_r {
-    // slot_name: 2
-    // slot_name[0]: slot_0
-    // slot_name[1]: slot_1
-    // slot_hookup: 2
-    // slot_hookup[0]: "smlight10.addon_hookup"
-    // slot_hookup[1]: "smlight9.addon_hookup"
-
     data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/markers_r/m_slots.sii"
 }
 }
