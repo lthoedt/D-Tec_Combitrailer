@@ -11,6 +11,7 @@ SiiNunit
 
 // @include "addon_hookups/dtec_light.sui"
 @include "addon_hookups/dtec_smalllight.sui"
+@include "addon_hookups/dtec_rearlight.sui"
 
 }
 

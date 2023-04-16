@@ -1,0 +1,60 @@
+accessory_hookup_data : round_l.addon_hookup
+{
+	name: "Round (Left)"
+	price: 90
+	icon: "smalllight_01"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/Lights/light_rear_round_brake_blinker_l.pmd"
+	electric_type: aux_light
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "f_bumper"
+	unlock: 4
+}
+accessory_hookup_data : round_r.addon_hookup
+{
+	name: "Round (Right)"
+	price: 90
+	icon: "smalllight_01"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/Lights/light_rear_round_brake_blinker_r.pmd"
+	electric_type: aux_light
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "f_bumper"
+	unlock: 4
+}
+accessory_hookup_data : round_rev.addon_hookup
+{
+	name: "Round (Reverse)"
+	price: 90
+	icon: "smalllight_01"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/Lights/light_rear_round_reverse.pmd"
+	electric_type: aux_light
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "f_bumper"
+	unlock: 4
+}
+accessory_hookup_data : dtec_l.addon_hookup
+{
+	name: "D-TEC (Left)"
+	price: 90
+	icon: "smalllight_01"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/Lights/light_rear_dtec_l.pmd"
+	electric_type: aux_light
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "f_bumper"
+	unlock: 4
+}
+accessory_hookup_data : dtec_r.addon_hookup
+{
+	name: "D-TEC (Right)"
+	price: 90
+	icon: "smalllight_01"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/Lights/light_rear_dtec_r.pmd"
+	electric_type: aux_light
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "f_bumper"
+	unlock: 4
+}
