@@ -7,11 +7,11 @@ accessory_chassis_data : chassis.dtec.container.chassis_45
 	unlock: 0
 	icon: "chassis/scs_gooseneck/ch3_40"
 	
-	detail_model: "/vehicle/trailer_eu/dtec_combi5/trailer_45.pmd"
-	model: "/vehicle/trailer_eu/dtec_combi5/trailer_45.pmd" # traffic
-	lods[]: "/vehicle/trailer_eu/dtec_combi5/trailer_45.pmd"	
+	detail_model: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd"
+	model: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd" # traffic
+	lods[]: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmd"	
 
-	collision: "/vehicle/trailer_eu/dtec_combi5/trailer_45.pmc"
+	collision: "/vehicle/trailer_eu/dtec_combi5/trailer_p.pmc"
 
 	residual_travel[0]: 0.10 	# 1rd axle
 	residual_travel[1]: 0.10 	# 2nd axle
@@ -33,7 +33,7 @@ accessory_chassis_data : chassis.dtec.container.chassis_45
  
 	trailer_mass: 8200.0
 
-	variant: default #Empty
+	variant: 45ft #Empty
 	look: default
 
     extended_shadow_texture: "/vehicle/trailer_eu/ui_shadow/comboshadd.tobj"
