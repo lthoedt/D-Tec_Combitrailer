@@ -8,6 +8,7 @@ accessory_hookup_data : smlight1.addon_hookup
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
+	suitable_for[]: "markers_d"	
 	unlock: 4
 }
 accessory_hookup_data : smlight2.addon_hookup
@@ -20,6 +21,7 @@ accessory_hookup_data : smlight2.addon_hookup
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
+	suitable_for[]: "markers_d"	
 	unlock: 6
 }
 accessory_hookup_data : smlight3.addon_hookup
@@ -32,6 +34,7 @@ accessory_hookup_data : smlight3.addon_hookup
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
+	suitable_for[]: "markers_d"	
  	unlock: 8
 }
 accessory_hookup_data : smlight4.addon_hookup
@@ -44,6 +47,7 @@ accessory_hookup_data : smlight4.addon_hookup
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
+	suitable_for[]: "markers_d"	
 	unlock: 10
 }
 accessory_hookup_data : smlight5.addon_hookup
@@ -56,6 +60,7 @@ accessory_hookup_data : smlight5.addon_hookup
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
+	suitable_for[]: "markers_d"	
 	unlock: 12
 }
 accessory_hookup_data : smlight6.addon_hookup
@@ -68,6 +73,7 @@ accessory_hookup_data : smlight6.addon_hookup
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
+	suitable_for[]: "markers_d"	
 	unlock: 14
 }
 accessory_hookup_data : smlight7.addon_hookup
@@ -80,6 +86,7 @@ accessory_hookup_data : smlight7.addon_hookup
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
+	suitable_for[]: "markers_d"	
 	unlock: 4
 }
 accessory_hookup_data : smlight8.addon_hookup
@@ -92,6 +99,7 @@ accessory_hookup_data : smlight8.addon_hookup
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
+	suitable_for[]: "markers_d"	
 	unlock: 4
 }
 accessory_hookup_data : smlight9.addon_hookup
@@ -104,6 +112,7 @@ accessory_hookup_data : smlight9.addon_hookup
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
+	suitable_for[]: "markers_d"	
 	unlock: 8
 }
 accessory_hookup_data : smlight10.addon_hookup
@@ -116,6 +125,7 @@ accessory_hookup_data : smlight10.addon_hookup
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
+	suitable_for[]: "markers_d"	
 	unlock: 8
 }
 accessory_hookup_data : dteclight1.addon_hookup
@@ -128,6 +138,7 @@ accessory_hookup_data : dteclight1.addon_hookup
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
+	suitable_for[]: "markers_d"	
 	unlock: 8
 }
 accessory_hookup_data : dteclight2.addon_hookup
@@ -140,5 +151,6 @@ accessory_hookup_data : dteclight2.addon_hookup
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
+	suitable_for[]: "markers_d"	
 	unlock: 8
 }

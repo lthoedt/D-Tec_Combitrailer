@@ -7,19 +7,26 @@ accessory_chassis_data : chassis.dolly.dtec.container.chassis
 	unlock: 0
 	icon: "chassis/scs_gooseneck/ch3_40"
 	
-	detail_model: "/vehicle/trailer_eu/dtec_combi5/dolly.pmd"
-	model: "/vehicle/trailer_eu/dtec_combi5/dolly.pmd" # traffic
-	lods[]: "/vehicle/trailer_eu/dtec_combi5/dolly.pmd"
+	detail_model: "/vehicle/trailer_eu/dtec_combi5/dolly_trailer.pmd"
+	model: "/vehicle/trailer_eu/dtec_combi5/dolly_trailer.pmd" # traffic
+	lods[]: "/vehicle/trailer_eu/dtec_combi5/dolly_trailer.pmd"
 	
-	collision: "/vehicle/trailer_eu/dtec_combi5/dolly.pmc"
+	collision: "/vehicle/trailer_eu/dtec_combi5/dolly_trailer.pmc"
 
 	residual_travel[0]: 0.10 	# 2st axle
 	residual_travel[1]: 0.10 	# 1nd axle
+	residual_travel[2]: 0.10 	# 1nd axle
+	residual_travel[3]: 0.10 	# 1nd axle
     
 	steerable_axle[0]: true
-	steerable_axle[1]: true		#rear wheel left
+	steerable_axle[1]: true
+	steerable_axle[2]: false
+	steerable_axle[3]: true
 
 	liftable_axle[0]: true
+	liftable_axle[1]: true
+	liftable_axle[2]: true
+	liftable_axle[3]: false
 
 	trailer_mass: 4850.0
 
@@ -33,7 +40,7 @@ accessory_chassis_data : chassis.dolly.dtec.container.chassis
 
 	ui_shadow: "/vehicle/trailer_eu/ui_shadow/shadow_ch_2_bd.pmd"
 	
-	defaults[]: "/def/vehicle/trailer_owned/dtec.container/accessory/trlr_cables/dolly.sii" // Connects dolly cables to combitrailer.
+	defaults[]: "/def/vehicle/trailer_owned/dtec.container/accessory/trlr_cables/dolly_trailer.sii" // Connects dolly cables to combitrailer.
 	
 	
 

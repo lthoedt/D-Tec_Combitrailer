@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : dtec_l.dtec.container.r_bumper
+{
+	name: "D-TEC Default"
+	price: 620
+	unlock: 6
+	icon: "trailer_owned/scs_gastank/accessory/r_bumper/standard"
+
+	exterior_model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/dtec_bumper.pmd"
+
+	variant: default_l
+}
+}

@@ -15,16 +15,19 @@ accessory_chassis_data : chassis.dtec.container.chassis_s_f
 
 	residual_travel[0]: 0.10 	# 1rd axle
 	residual_travel[1]: 0.10 	# 2nd axle
-	
-	liftable_axle[0]: true
-	liftable_axle[1]: false
-
+	residual_travel[2]: 0.10 	# 2nd axle
+		
 	steerable_axle[0]: true
 	steerable_axle[1]: true
+	steerable_axle[2]: true
+	
+	liftable_axle[0]: true
+	liftable_axle[1]: true
+	liftable_axle[2]: true
  
 	trailer_mass: 6700.0
 
-	variant: default #Empty
+	variant: empty #Empty
 	look: default
 
     extended_shadow_texture: "/vehicle/trailer_eu/ui_shadow/comboshadd.tobj"

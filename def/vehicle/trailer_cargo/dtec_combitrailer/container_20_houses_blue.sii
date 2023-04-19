@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_cargo_data : .cargo220
+{
+	model: "/vehicle/share/models/dtec_containers/cont_20_houses.pmd"
+	collision: "/vehicle/share/models/dtec_containers/cont_20_houses.pmc"
+ 
+	variant: default
+	look: blue
+}
+}
+

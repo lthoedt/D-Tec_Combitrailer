@@ -56,11 +56,11 @@ vehicle_accessory: .body
 }
 vehicle_addon_accessory: .f_bumper
 {
-	data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/f_bumper/dtec_standard.sii"
+	data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/f_bumper/dtec_lights.sii"
 }
 vehicle_addon_accessory: .r_bumper
 {
-	data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/r_bumper/dtec_standard.sii"
+	data_path: "/def/vehicle/trailer_owned/dtec.container/accessory/r_bumper/dtec_lights.sii"
 }
 
 vehicle_wheel_accessory: .tire

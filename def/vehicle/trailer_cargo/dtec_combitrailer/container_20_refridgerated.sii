@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_cargo_data : .cargo40
+{
+	model: "/vehicle/share/models/dtec_containers/cont_20_refridgerated.pmd"
+	collision: "/vehicle/share/models/dtec_containers/cont_20_refridgerated.pmc"
+ 
+	variant: default
+	look: default
+}
+}
+

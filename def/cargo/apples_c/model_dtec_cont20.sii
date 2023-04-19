@@ -3,9 +3,6 @@ SiiNunit
 cargo_model_match : .scs_cont20
 {
 	compatible_body[]: "/def/vehicle/trailer_owned/dtec.container/body/body_dolly.sii"
-	data_path[]: "/def/vehicle/trailer_cargo/scs_container/container_20.sii"
-	data_path[]: "/def/vehicle/trailer_cargo/scs_container/container_20_blue.sii"
-	data_path[]: "/def/vehicle/trailer_cargo/scs_container/container_20_green.sii"
-	data_path[]: "/def/vehicle/trailer_cargo/scs_container/container_20_silver.sii"
+	data_path[]: "/def/vehicle/trailer_cargo/dtec_combitrailer/container_20_refridgerated.sii"
 }
 }
