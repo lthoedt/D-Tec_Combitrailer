@@ -12,6 +12,7 @@ V2
 	- beacon
 	- marker
 - Changed trailer to truck connector part to the real life version.
+- Remodelled combitrailer and dolly.
 
 V1.2
 -fixed trailer cables between dolly and trailer
