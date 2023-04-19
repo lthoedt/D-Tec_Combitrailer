@@ -1,8 +1,8 @@
 SiiNunit
 {
-trailer_body_set : .b_double
+trailer_body_set : .b_double_40
 {
-	name: "@@Double@@"
+	name: "@@Double 40ft@@"
 	icon: "chassis/scs_gooseneck/ch3_40"
 	trailer_definition: trailer_def.paint
 	
