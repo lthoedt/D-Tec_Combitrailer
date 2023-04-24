@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : simple.dtec.container.f_mudflap
+{
+	name: "D-TEC Simple"
+	price: 400
+	unlock: 6
+	icon: "r_mudflap/scs_box/simple"
+
+	exterior_model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_mudflap/dtec_mudflap_simple.pmd"
+}
+}

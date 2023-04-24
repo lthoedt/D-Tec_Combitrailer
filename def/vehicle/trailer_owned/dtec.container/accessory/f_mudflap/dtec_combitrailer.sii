@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : combitrailer.dtec.container.f_mudflap
+{
+	name: "D-TEC Combitrailer"
+	price: 400
+	unlock: 6
+	icon: "r_mudflap/scs_box/simple"
+
+	exterior_model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_mudflap/dtec_mudflap_combitrailer.pmd"
+}
+}
