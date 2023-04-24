@@ -82,3 +82,27 @@ accessory_hookup_data : dtec_m_l.addon_hookup
 	suitable_for[]: "f_bumper"
 	unlock: 4
 }
+accessory_hookup_data : dtec_ng_b_l.addon_hookup
+{
+	name: "D-TEC Next Gen Black (Left)"
+	price: 90
+	icon: "smalllight_01"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/Lights/dtec_light_next_gen_black_left.pmd"
+	electric_type: aux_light
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "f_bumper"
+	unlock: 4
+}
+accessory_hookup_data : dtec_ng_b_r.addon_hookup
+{
+	name: "D-TEC Next Gen Black (Right)"
+	price: 90
+	icon: "smalllight_01"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/Lights/dtec_light_next_gen_black_right.pmd"
+	electric_type: aux_light
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "f_bumper"
+	unlock: 4
+}
