@@ -2,7 +2,7 @@ SiiNunit
 {
 accessory_trailer_data : vehicle.dtec.container
 {
-	info[]: ""				# brand
-	info[]: "@@dtec.container@@"	# series/type
+	info[]: "@@dtec@@"				# brand
+	info[]: "@@Combitrailer@@"	# series/type
 }
 }
