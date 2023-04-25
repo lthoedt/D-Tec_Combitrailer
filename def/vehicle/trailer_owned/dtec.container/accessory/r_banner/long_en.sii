@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : long_en.dtec.container.r_banner
+{
+	name: "@@long_vehicle@@"
+	price: 100
+	unlock: 10
+	icon: "r_banner/scs_flatbed/long"
+
+	exterior_model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_banner/banner_long_en.pmd"
+	look: default
+}
+}
