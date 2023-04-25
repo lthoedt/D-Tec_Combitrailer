@@ -106,3 +106,27 @@ accessory_hookup_data : dtec_ng_b_r.addon_hookup
 	suitable_for[]: "f_bumper"
 	unlock: 4
 }
+accessory_hookup_data : refl_tri_l.addon_hookup
+{
+	name: "Reflective Triangle (Large)"
+	price: 90
+	icon: "smalllight_01"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/Lights/reflective_triangle_large.pmd"
+	electric_type: aux_light
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "f_bumper"
+	unlock: 4
+}
+accessory_hookup_data : refl_tri_s.addon_hookup
+{
+	name: "Reflective Triangle (Small)"
+	price: 90
+	icon: "smalllight_01"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/Lights/reflective_triangle_small.pmd"
+	electric_type: aux_light
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "f_bumper"
+	unlock: 4
+}
