@@ -1,6 +1,6 @@
 SiiNunit
 {
-trailer_body_set : .single
+trailer_body_set : .container
 {
 	name: "@@40ft@@" // Body tab
 	icon: "chassis/scs_gooseneck/ch3_40"

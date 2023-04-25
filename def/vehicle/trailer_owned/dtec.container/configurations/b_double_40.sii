@@ -1,13 +1,13 @@
 SiiNunit
 {
-trailer_configuration : .paint
+trailer_configuration : .b_double_40
 {
 	name: "@@Double 40ft@@"
 	chain_type: b_double
 	icon: "chassis/scs_gooseneck/ch3_40"
 	
 	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis_dolly.sii"
-	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis.sii"
+	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis_40.sii"
 	
 }
 }

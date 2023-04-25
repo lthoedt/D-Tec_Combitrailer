@@ -1,12 +1,12 @@
 SiiNunit
 {
-trailer_body_set : .b_double_53
+trailer_body_set : .container
 {
-	name: "@@Double 53ft@@"
+	name: "@@Double 40ft@@"
 	icon: "chassis/scs_gooseneck/ch3_40"
 	trailer_definition: trailer_def.paint
 	
 	body[]: "/def/vehicle/trailer_owned/dtec.container/body/body_dolly.sii"
-	body[]: "/def/vehicle/trailer_owned/dtec.container/body/body_single_53.sii"
+	body[]: "/def/vehicle/trailer_owned/dtec.container/body/body_single.sii"
 }
 }

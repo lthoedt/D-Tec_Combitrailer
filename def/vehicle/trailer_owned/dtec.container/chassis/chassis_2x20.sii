@@ -1,8 +1,8 @@
 SiiNunit
 {
-accessory_chassis_data : chassis.dtec.container.chassis_2x20
+accessory_chassis_data : chassis_2x20.dtec.container.chassis
 {
-	name: "@@Chassis@@"
+	name: "@@Chassis 2x20ft@@"
 	price: 28000
 	unlock: 0
 	icon: "chassis/scs_gooseneck/ch3_40"

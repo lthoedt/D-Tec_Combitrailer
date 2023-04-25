@@ -5,6 +5,6 @@ trailer_configuration : .single
 	name: "@@40ft@@"
 	chain_type: single
 	icon: "chassis/scs_gooseneck/ch3_40"
-	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis.sii"
+	chassis[]: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis_40.sii"
 }
 }

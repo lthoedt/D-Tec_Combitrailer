@@ -1,6 +1,6 @@
 SiiNunit
 {
-trailer_configuration : .paint
+trailer_configuration : .b_double_53
 {
 	name: "@@Double 53ft@@"
 	chain_type: b_double

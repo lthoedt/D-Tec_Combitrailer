@@ -48,7 +48,7 @@ vehicle_accessory: .data
 }
 vehicle_accessory: .chassis
 {
-	data_path: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis.sii"
+	data_path: "/def/vehicle/trailer_owned/dtec.container/chassis/chassis_40.sii"
 }
 vehicle_accessory: .body
 {
