@@ -154,13 +154,13 @@ accessory_hookup_data : dteclight2.addon_hookup
 	suitable_for[]: "markers_d"	
 	unlock: 8
 }
-accessory_hookup_data : dteclightv.addon_hookup
+accessory_hookup_data : dteclight3.addon_hookup
 {
-	name: "D-TEC Light (Vertical)"
+	name: "D-TEC Light (Centered)"
 	price: 120
 	icon: "smalllight_09"
 	part_type: aftermarket
-	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/dtec_markers/dtec_markers_v.pmd"
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/dtec_markers/dtec_markers_3.pmd"
 	electric_type: aux_light
 	suitable_for[]: "markers_f"
 	suitable_for[]: "markers_r"
