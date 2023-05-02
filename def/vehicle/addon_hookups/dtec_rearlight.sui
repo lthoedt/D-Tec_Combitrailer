@@ -60,7 +60,7 @@ accessory_hookup_data : dtec_r.addon_hookup
 }
 accessory_hookup_data : dtec_m_r.addon_hookup
 {
-	name: "D-TEC Marker (Right)"
+	name: "D-TEC Marker LED (Right)"
 	price: 90
 	icon: "smalllight_01"
 	part_type: aftermarket
@@ -72,11 +72,35 @@ accessory_hookup_data : dtec_m_r.addon_hookup
 }
 accessory_hookup_data : dtec_m_l.addon_hookup
 {
-	name: "D-TEC Marker (Left)"
+	name: "D-TEC Marker LED (Left)"
 	price: 90
 	icon: "smalllight_01"
 	part_type: aftermarket
 	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/Lights/dtec_marker_led_left.pmd"
+	electric_type: aux_light
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "f_bumper"
+	unlock: 4
+}
+accessory_hookup_data : dtec_m_s_l.addon_hookup
+{
+	name: "D-TEC Marker STANDARD (Left)"
+	price: 90
+	icon: "smalllight_01"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/Lights/dtec_marker_standard_left.pmd"
+	electric_type: aux_light
+	suitable_for[]: "r_bumper"
+	suitable_for[]: "f_bumper"
+	unlock: 4
+}
+accessory_hookup_data : dtec_m_s_r.addon_hookup
+{
+	name: "D-TEC Marker STANDARD (Right)"
+	price: 90
+	icon: "smalllight_01"
+	part_type: aftermarket
+	model: "/vehicle/trailer_owned/dtec_combitrailer/accessory/r_bumper/Lights/dtec_marker_standard_right.pmd"
 	electric_type: aux_light
 	suitable_for[]: "r_bumper"
 	suitable_for[]: "f_bumper"
