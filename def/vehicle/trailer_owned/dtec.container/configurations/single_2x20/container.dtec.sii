@@ -2,7 +2,7 @@ SiiNunit
 {
 trailer_body_set : .container
 {
-	name: "@@2x20ft@@" // Body tab
+	name: "@@bs_container@@" // Body tab
 	icon: "chassis/scs_gooseneck/ch3_40"
 	trailer_definition: trailer_def.dtec.container
 	body[]: "/def/vehicle/trailer_owned/dtec.container/body/body_single_2x20.sii"

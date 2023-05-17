@@ -2,7 +2,7 @@ SiiNunit
 {
 trailer_body_set : .container
 {
-	name: "@@Double 53ft@@"
+	name: "@@bs_container@@"
 	icon: "chassis/scs_gooseneck/ch3_40"
 	trailer_definition: trailer_def.paint
 	
