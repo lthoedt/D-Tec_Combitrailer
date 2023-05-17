@@ -1,4 +1,38 @@
 images:
-    - Rear Lights
-    - Marker Lights
-    - Bumper
+    [ ] bodies
+    [ ] chassis
+    [ ] Marker
+    [ ] Bumpers
+        [ ] Default
+        [ ] Default slots
+        [ ] New gen
+    [ ] Lights
+        [ ] STD
+            [ ] Left
+            [ ] Right
+        [ ] Next gen
+            [ ] Left
+            [ ] Right
+        [ ] Round
+            [ ] Left
+            [ ] Right
+            [ ] Reverse
+        [ ] LED Marker
+            [ ] Left
+            [ ] Right
+        [ ] STD Marker
+            [ ] Left
+            [ ] Right
+        [ ] Reflective Triangle
+            [ ] Large
+            [ ] Small
+    [ ] Mudflap
+        [ ] Simple
+        [ ] Combitrailer
+        
+
+Add vertical marker Light [x]
+Add DTEC side light [x]
+Fix model [x]
+Fix reflector panels
+Add different style round rear lights

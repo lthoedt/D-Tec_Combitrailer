@@ -1,16 +1,18 @@
 D-TEC Combitrailer by Peerke145 Enhanced by Dutchta
 
 V2
-- Added visible cargo
+- Added visible cargo.
 - Fixed textures.
+- Fixed advanced coupling.
 - Chassis
 	- Added 45ft, 53ft
 	- All paintable.
-- Added lights.
 - Added customization:
-	- bumper
-	- beacon
-	- marker
+	- 2 bumper designs
+	- Multiple rear lights
+	- Beacons
+	- Side lights
+	- 2 banners
 - Changed trailer to truck connector part to the real life version.
 - Remodelled combitrailer and dolly.
 
