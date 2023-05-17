@@ -3,7 +3,7 @@ SiiNunit
 trailer_body_set : .container
 {
 	name: "@@bs_container@@" // Body tab
-	icon: "chassis/scs_gooseneck/ch3_40"
+	icon: "chassis/dtec_container/dtec_container"
 	trailer_definition: trailer_def.dtec.doem.container
 	body[]: "/def/vehicle/trailer_owned/dtec.container/body/body_dolly.sii"
 }
